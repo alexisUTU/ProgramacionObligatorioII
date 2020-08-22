@@ -1,0 +1,12 @@
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.Resources.resources
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.VMenuPrincipal.resources
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\bin\Debug\Vista.exe.config
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\bin\Debug\Vista.exe
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\bin\Debug\Vista.pdb
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\bin\Debug\Vista.xml
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.exe
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.xml
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.pdb
+C:\Users\Alexis M\source\repos\AdministracionEmpresas\obj\Debug\Vista.VMenuArticulos.resources
