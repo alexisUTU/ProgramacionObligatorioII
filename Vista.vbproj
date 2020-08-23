@@ -79,10 +79,10 @@
     <Compile Include="Articulos\VMenuArticulos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleos\VMenuEmpleados.Designer.vb">
-      <DependentUpon>VMenuEmpleados.vb</DependentUpon>
+    <Compile Include="Empleos\VMenuEmpleos.Designer.vb">
+      <DependentUpon>VMenuEmpleos.vb</DependentUpon>
     </Compile>
-    <Compile Include="Empleos\VMenuEmpleados.vb">
+    <Compile Include="Empleos\VMenuEmpleos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -117,11 +117,17 @@
     <EmbeddedResource Include="Articulos\VMenuArticulos.resx">
       <DependentUpon>VMenuArticulos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Empleos\VMenuEmpleos.resx">
+      <DependentUpon>VMenuEmpleos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal\VMenuPersonal.resx">
+      <DependentUpon>VMenuPersonal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VMenuPrincipal.resx">
       <DependentUpon>VMenuPrincipal.vb</DependentUpon>
@@ -169,6 +175,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-exit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaAd\Controlador.vbproj">
+      <Project>{e2eeb228-1feb-4f76-a010-1101131d7664}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

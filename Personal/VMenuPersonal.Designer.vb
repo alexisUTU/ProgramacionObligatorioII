@@ -22,9 +22,17 @@ Partial Class VMenuPersonal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'VMenuPersonal
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "VMenuPersonal"
+        Me.ClientSize = New System.Drawing.Size(932, 757)
+        Me.Name = "VMenuPersonal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "Menu personal"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

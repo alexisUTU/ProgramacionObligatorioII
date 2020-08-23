@@ -24,34 +24,21 @@ Partial Class VMenuPrincipal
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VMenuPrincipal))
         Me.lblPrincipal = New System.Windows.Forms.Label()
-        Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnPersona = New System.Windows.Forms.Button()
         Me.btnArticulos = New System.Windows.Forms.Button()
-        Me.brnPersonal = New System.Windows.Forms.Button()
         Me.btnEmpleos = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblPrincipal
         '
         Me.lblPrincipal.AutoSize = True
         Me.lblPrincipal.Font = New System.Drawing.Font("Tahoma", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPrincipal.Location = New System.Drawing.Point(275, 60)
+        Me.lblPrincipal.Location = New System.Drawing.Point(276, 56)
         Me.lblPrincipal.Name = "lblPrincipal"
         Me.lblPrincipal.Size = New System.Drawing.Size(293, 51)
         Me.lblPrincipal.TabIndex = 0
         Me.lblPrincipal.Text = "Administración"
-        '
-        'btnSalir
-        '
-        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
-        Me.btnSalir.Image = CType(resources.GetObject("btnSalir.Image"), System.Drawing.Image)
-        Me.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnSalir.Location = New System.Drawing.Point(474, 547)
-        Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(346, 169)
-        Me.btnSalir.TabIndex = 5
-        Me.btnSalir.Text = "Salir"
-        Me.btnSalir.UseVisualStyleBackColor = True
         '
         'btnPersona
         '
@@ -77,29 +64,29 @@ Partial Class VMenuPrincipal
         Me.btnArticulos.Text = "Articulos"
         Me.btnArticulos.UseVisualStyleBackColor = True
         '
-        'brnPersonal
-        '
-        Me.brnPersonal.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
-        Me.brnPersonal.Image = Global.Vista.My.Resources.Resources.icons8_name_tag_64
-        Me.brnPersonal.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.brnPersonal.Location = New System.Drawing.Point(105, 387)
-        Me.brnPersonal.Name = "brnPersonal"
-        Me.brnPersonal.Size = New System.Drawing.Size(346, 169)
-        Me.brnPersonal.TabIndex = 3
-        Me.brnPersonal.Text = "Empleados"
-        Me.brnPersonal.UseVisualStyleBackColor = True
-        '
         'btnEmpleos
         '
         Me.btnEmpleos.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.btnEmpleos.Image = Global.Vista.My.Resources.Resources.icons8_paint_roller_64
-        Me.btnEmpleos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEmpleos.Location = New System.Drawing.Point(474, 352)
+        Me.btnEmpleos.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnEmpleos.Location = New System.Drawing.Point(105, 387)
         Me.btnEmpleos.Name = "btnEmpleos"
         Me.btnEmpleos.Size = New System.Drawing.Size(346, 169)
         Me.btnEmpleos.TabIndex = 4
         Me.btnEmpleos.Text = "Empleos"
         Me.btnEmpleos.UseVisualStyleBackColor = True
+        '
+        'btnSalir
+        '
+        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.btnSalir.Image = CType(resources.GetObject("btnSalir.Image"), System.Drawing.Image)
+        Me.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSalir.Location = New System.Drawing.Point(474, 352)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(346, 169)
+        Me.btnSalir.TabIndex = 5
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
         '
         'VMenuPrincipal
         '
@@ -109,11 +96,11 @@ Partial Class VMenuPrincipal
         Me.Controls.Add(Me.lblPrincipal)
         Me.Controls.Add(Me.btnPersona)
         Me.Controls.Add(Me.btnArticulos)
-        Me.Controls.Add(Me.brnPersonal)
         Me.Controls.Add(Me.btnEmpleos)
         Me.Controls.Add(Me.btnSalir)
         Me.Name = "VMenuPrincipal"
-        Me.Text = "VMenuPrincipal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "Menu principal"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -121,7 +108,6 @@ Partial Class VMenuPrincipal
 
     Friend WithEvents lblPrincipal As Label
     Friend WithEvents btnPersona As Button
-    Friend WithEvents brnPersonal As Button
     Friend WithEvents btnEmpleos As Button
     Friend WithEvents btnArticulos As Button
     Friend WithEvents btnSalir As Button
