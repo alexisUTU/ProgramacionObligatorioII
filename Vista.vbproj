@@ -140,6 +140,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Diccionario de datos empresa.pdf" />
     <None Include="Resources\icons8-numbered-list-64.png" />
   </ItemGroup>
   <ItemGroup>
