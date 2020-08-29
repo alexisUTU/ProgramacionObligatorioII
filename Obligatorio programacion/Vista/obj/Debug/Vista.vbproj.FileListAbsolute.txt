@@ -1,0 +1,17 @@
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
