@@ -26,12 +26,12 @@ Partial Class Login
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.btnINGRESAR = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnMinimizar = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
@@ -79,6 +79,16 @@ Partial Class Login
         Me.Panel1.Size = New System.Drawing.Size(356, 501)
         Me.Panel1.TabIndex = 3
         '
+        'Label4
+        '
+        Me.Label4.Font = New System.Drawing.Font("Roboto Light", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(36, 207)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(290, 87)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "Sistema de control de stock"
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -123,7 +133,7 @@ Partial Class Login
         '
         Me.btnINGRESAR.BackColor = System.Drawing.Color.Gainsboro
         Me.btnINGRESAR.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnINGRESAR.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnINGRESAR.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.btnINGRESAR.FlatAppearance.BorderSize = 0
         Me.btnINGRESAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnINGRESAR.Font = New System.Drawing.Font("Roboto", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -133,16 +143,6 @@ Partial Class Login
         Me.btnINGRESAR.TabIndex = 8
         Me.btnINGRESAR.Text = "INGRESAR"
         Me.btnINGRESAR.UseVisualStyleBackColor = False
-        '
-        'Label4
-        '
-        Me.Label4.Font = New System.Drawing.Font("Roboto Light", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(36, 147)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(290, 87)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Sistema de control de stock"
         '
         'btnCerrar
         '
