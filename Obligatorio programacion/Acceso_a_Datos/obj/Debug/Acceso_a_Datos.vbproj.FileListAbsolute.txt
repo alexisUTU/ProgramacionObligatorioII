@@ -1,9 +1,0 @@
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.dll
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.pdb
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.xml
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.Resources.resources
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.vbproj.GenerateResource.cache
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.vbproj.CoreCompileInputs.cache
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.dll
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.xml
-C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.pdb

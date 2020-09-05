@@ -1,0 +1,82 @@
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Bel\Desktop\Obligatorio programacion\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregar.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\Obligatorio programacion\Vista\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregar.resources
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregarArticulo.resources
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.dll
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\alumno\Downloads\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.xml
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.dll
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.xml
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregar.resources
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregarArticulo.resources
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.xml
