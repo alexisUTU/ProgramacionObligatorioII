@@ -41,5 +41,9 @@ Public Class ControladorArticulo
         End If
 
     End Function
+    Public Function listarArticulos() As DataTable
+        Dim consulta As String = "SELECT foto AS Foto, descripcion AS Descripcion, precio AS Precio, fecha_fabricacion AS FechaFabricacion FROM articulos"
+        Return ConsultasBase.Singleton.ConsultaTabla(consulta)
 
+    End Function
 End Class

@@ -1,14 +1,16 @@
 ﻿Public Class Menu_Principal
-    Private frmActual As Form
-    'Private frmActual As Form
+
     Private drag As Boolean
     Private mouseX, mouseY As Integer
+
     Public Sub esconder()
+
         If pnlArt.Visible = True Then
             pnlArt.Visible = False
         ElseIf pnlEmp.Visible = True Then
             pnlEmp.Visible = False
         End If
+
     End Sub
 
     Public Sub mostrar(pnl As Panel)
@@ -41,20 +43,6 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-
-        'mostrarForm(New Login())
-    End Sub
-
-    Private Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
-        frmActual = New frmAgregarArticulo
-        frmActual.BringToFront()
-        frmActual.MdiParent = Me
-        frmActual.Dock = DockStyle.Fill
-        frmActual.Show()
-
-    End Sub
-
     Private Sub btnEmp_Click_1(sender As Object, e As EventArgs) Handles btnEmp.Click
         If pnlEmp.Visible = True Then
             esconder()
@@ -70,32 +58,24 @@
             mostrar(pnlArt)
         End If
     End Sub
-    Private Sub pnlTopBar_MouseMove(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseMove
 
-        If Me.drag Then
-            Me.Top = Cursor.Position.Y - mouseY
-            Me.Left = Cursor.Position.X - mouseX
-        End If
+    Private Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
+        frmChange(New frmAgregarArticulo)
     End Sub
 
-    Private Sub pnlTopBar_MouseUp(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseUp
-        Me.drag = False
-    End Sub
+    Private Sub frmChange(form As Form)
 
-    Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
-        Application.Exit()
-    End Sub
+        Me.MdiChildren(0).Close()
+        form.MdiParent = Me
+        form.BringToFront()
+        form.Dock = DockStyle.Fill
+        form.Show()
 
-    Private Sub btnMinimizar_Click(sender As Object, e As EventArgs) Handles btnMinimizar.Click
-        Me.WindowState = WindowState.Minimized
     End Sub
-
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        frmActual = frmAgregar.Singleton
-        frmActual.BringToFront()
-        frmActual.MdiParent = Me
-        frmActual.Dock = DockStyle.Fill
-        frmActual.Show()
+
+        frmChange(frmAgregar.Singleton)
+
     End Sub
 
     Private Sub pnlTopBar_MouseDown(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseDown
@@ -105,4 +85,37 @@
 
     End Sub
 
+    Private Sub btnMinimizar_Click(sender As Object, e As EventArgs) Handles btnMinimizar.Click
+        Me.WindowState = WindowState.Minimized
+    End Sub
+
+    Private Sub pnlTopBar_MouseUp(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseUp
+        Me.drag = False
+    End Sub
+
+    Private Sub pnlTopBar_MouseMove(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseMove
+
+        If Me.drag Then
+            Me.Top = Cursor.Position.Y - mouseY
+            Me.Left = Cursor.Position.X - mouseX
+        End If
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        frmChange(frmListados)
+    End Sub
+
+    Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub btnMain_Click(sender As Object, e As EventArgs) Handles btnMain.Click
+        frmChange(frmBienvenida)
+    End Sub
+
+    Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles Me.Load
+        frmBienvenida.MdiParent = Me
+        frmBienvenida.Dock = DockStyle.Fill
+        frmBienvenida.Show()
+    End Sub
 End Class

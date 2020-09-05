@@ -22,7 +22,7 @@ Public Class ConsultasBase
 
     End Function
 
-    Public Function ConsultaTabla(consulta As String)
+    Public Function ConsultaTabla(consulta As String) As DataTable
 
         Conexion.Singleton.CheckConexion()
         Dim tabla As New DataTable

@@ -91,6 +91,18 @@
     <Compile Include="frmAgregarArticulo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmBienvenida.Designer.vb">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListados.Designer.vb">
+      <DependentUpon>frmListados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListados.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +139,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAgregarArticulo.resx">
       <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListados.resx">
+      <DependentUpon>frmListados.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>

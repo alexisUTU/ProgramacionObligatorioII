@@ -40,7 +40,7 @@ Partial Class frmAgregarArticulo
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(593, 299)
+        Me.Label4.Location = New System.Drawing.Point(614, 329)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(213, 25)
         Me.Label4.TabIndex = 14
@@ -51,17 +51,16 @@ Partial Class frmAgregarArticulo
         Me.txtPrecio.BackColor = System.Drawing.Color.Gainsboro
         Me.txtPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPrecio.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPrecio.Location = New System.Drawing.Point(64, 333)
+        Me.txtPrecio.Location = New System.Drawing.Point(85, 373)
         Me.txtPrecio.Name = "txtPrecio"
         Me.txtPrecio.Size = New System.Drawing.Size(157, 24)
         Me.txtPrecio.TabIndex = 13
-        Me.txtPrecio.Text = "XXXXXXXX"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(59, 289)
+        Me.Label3.Location = New System.Drawing.Point(80, 329)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(73, 25)
         Me.Label3.TabIndex = 12
@@ -72,17 +71,17 @@ Partial Class frmAgregarArticulo
         Me.txtDesc.BackColor = System.Drawing.Color.Gainsboro
         Me.txtDesc.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtDesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDesc.Location = New System.Drawing.Point(64, 148)
+        Me.txtDesc.Location = New System.Drawing.Point(85, 179)
         Me.txtDesc.Multiline = True
         Me.txtDesc.Name = "txtDesc"
         Me.txtDesc.Size = New System.Drawing.Size(334, 106)
-        Me.txtDesc.TabIndex = 11
+        Me.txtDesc.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(59, 104)
+        Me.Label2.Location = New System.Drawing.Point(80, 135)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(125, 25)
         Me.Label2.TabIndex = 10
@@ -93,7 +92,7 @@ Partial Class frmAgregarArticulo
         Me.txtCod.BackColor = System.Drawing.Color.Gainsboro
         Me.txtCod.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCod.Location = New System.Drawing.Point(355, 333)
+        Me.txtCod.Location = New System.Drawing.Point(367, 373)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(157, 24)
         Me.txtCod.TabIndex = 9
@@ -102,7 +101,7 @@ Partial Class frmAgregarArticulo
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(350, 289)
+        Me.Label1.Location = New System.Drawing.Point(362, 329)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(80, 25)
         Me.Label1.TabIndex = 8
@@ -116,7 +115,7 @@ Partial Class frmAgregarArticulo
         Me.btnAgregarArt.FlatAppearance.BorderSize = 0
         Me.btnAgregarArt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAgregarArt.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarArt.Location = New System.Drawing.Point(334, 419)
+        Me.btnAgregarArt.Location = New System.Drawing.Point(349, 447)
         Me.btnAgregarArt.Name = "btnAgregarArt"
         Me.btnAgregarArt.Size = New System.Drawing.Size(193, 45)
         Me.btnAgregarArt.TabIndex = 16
@@ -127,7 +126,7 @@ Partial Class frmAgregarArticulo
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(58, 39)
+        Me.Label5.Location = New System.Drawing.Point(79, 61)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(237, 31)
         Me.Label5.TabIndex = 17
@@ -139,7 +138,7 @@ Partial Class frmAgregarArticulo
         Me.txtFecha.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtFecha.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals
         Me.txtFecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFecha.Location = New System.Drawing.Point(635, 333)
+        Me.txtFecha.Location = New System.Drawing.Point(656, 373)
         Me.txtFecha.Mask = "00/00/0000"
         Me.txtFecha.Name = "txtFecha"
         Me.txtFecha.Size = New System.Drawing.Size(132, 24)
@@ -149,8 +148,9 @@ Partial Class frmAgregarArticulo
         '
         'Panel1
         '
+        Me.Panel1.AllowDrop = True
         Me.Panel1.BackColor = System.Drawing.Color.Gainsboro
-        Me.Panel1.Location = New System.Drawing.Point(647, 135)
+        Me.Panel1.Location = New System.Drawing.Point(656, 166)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(120, 119)
         Me.Panel1.TabIndex = 19
@@ -159,7 +159,7 @@ Partial Class frmAgregarArticulo
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(675, 104)
+        Me.Label6.Location = New System.Drawing.Point(684, 135)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(55, 25)
         Me.Label6.TabIndex = 20
@@ -170,7 +170,7 @@ Partial Class frmAgregarArticulo
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(891, 490)
+        Me.ClientSize = New System.Drawing.Size(891, 520)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.txtFecha)

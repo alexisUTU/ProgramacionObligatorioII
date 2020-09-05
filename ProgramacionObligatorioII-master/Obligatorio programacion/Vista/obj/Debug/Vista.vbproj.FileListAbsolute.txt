@@ -80,3 +80,28 @@ C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObl
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.xml
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe.config
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.exe
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Vista.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregar.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmAgregarArticulo.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Login.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Menu_Principal.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.Resources.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.exe
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmListados.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\obj\Debug\Vista.frmBienvenida.resources

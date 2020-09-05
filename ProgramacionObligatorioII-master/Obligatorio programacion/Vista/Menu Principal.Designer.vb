@@ -34,7 +34,7 @@ Partial Class Menu_Principal
         Me.btnArt = New FontAwesome.Sharp.IconButton()
         Me.btnMain = New FontAwesome.Sharp.IconButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
         Me.pnlTopBar = New System.Windows.Forms.Panel()
         Me.btnMinimizar = New FontAwesome.Sharp.IconButton()
         Me.btnCerrar = New FontAwesome.Sharp.IconButton()
@@ -260,22 +260,22 @@ Partial Class Menu_Principal
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.lblTitulo)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(184, 86)
         Me.Panel1.TabIndex = 0
         '
-        'Label1
+        'lblTitulo
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(28, 25)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(129, 40)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Sistema de control de stock"
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitulo.ForeColor = System.Drawing.Color.White
+        Me.lblTitulo.Location = New System.Drawing.Point(28, 25)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(129, 40)
+        Me.lblTitulo.TabIndex = 0
+        Me.lblTitulo.Text = "Sistema de control de stock"
         '
         'pnlTopBar
         '
@@ -360,5 +360,5 @@ Partial Class Menu_Principal
     Friend WithEvents btnEmp As FontAwesome.Sharp.IconButton
     Friend WithEvents btnCerrar As FontAwesome.Sharp.IconButton
     Friend WithEvents btnMinimizar As FontAwesome.Sharp.IconButton
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblTitulo As Label
 End Class

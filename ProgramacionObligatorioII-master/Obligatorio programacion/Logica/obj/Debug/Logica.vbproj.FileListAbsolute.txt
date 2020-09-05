@@ -36,3 +36,16 @@ C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObl
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.xml
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.pdb
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.Resources.resources
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbproj.CoreCompileInputs.cache
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.dll
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.xml
+C:\Users\Mati\Desktop\Obligatorio programacion SUPERMERCADO\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.pdb
