@@ -51,9 +51,6 @@
     <Reference Include="FontAwesome.Sharp, Version=5.14.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.14.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
     </Reference>
-    <Reference Include="Logica">
-      <HintPath>..\Logica\bin\Debug\Logica.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -79,34 +76,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAgregar.Designer.vb">
-      <DependentUpon>frmAgregar.vb</DependentUpon>
+    <Compile Include="Articulo\frmListadoArticulo.Designer.vb">
+      <DependentUpon>frmListadoArticulo.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAgregar.vb">
+    <Compile Include="Articulo\frmListadoArticulo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAgregarArticulo.Designer.vb">
+    <Compile Include="Empleado\frmAgregarEmpleado.Designer.vb">
+      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmAgregarEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articulo\frmAgregarArticulo.Designer.vb">
       <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAgregarArticulo.vb">
+    <Compile Include="Articulo\frmAgregarArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.Designer.vb">
+      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBienvenida.Designer.vb">
       <DependentUpon>frmBienvenida.vb</DependentUpon>
     </Compile>
     <Compile Include="frmBienvenida.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmListadoEmpleados.Designer.vb">
-      <DependentUpon>frmListadoEmpleados.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmListadoEmpleados.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmListados.Designer.vb">
-      <DependentUpon>frmListados.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmListados.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -140,20 +137,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAgregar.resx">
-      <DependentUpon>frmAgregar.vb</DependentUpon>
+    <EmbeddedResource Include="Articulo\frmListadoArticulo.resx">
+      <DependentUpon>frmListadoArticulo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAgregarArticulo.resx">
+    <EmbeddedResource Include="Empleado\frmAgregarEmpleado.resx">
+      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articulo\frmAgregarArticulo.resx">
       <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado\frmListadoEmpleado.resx">
+      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBienvenida.resx">
       <DependentUpon>frmBienvenida.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmListadoEmpleados.resx">
-      <DependentUpon>frmListadoEmpleados.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmListados.resx">
-      <DependentUpon>frmListados.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -180,6 +177,12 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.vbproj">
+      <Project>{c09bcc90-7081-4ed3-83eb-aee63322f972}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

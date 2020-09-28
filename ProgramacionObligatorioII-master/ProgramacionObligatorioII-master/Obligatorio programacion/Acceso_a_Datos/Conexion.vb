@@ -3,14 +3,22 @@
 Public Class Conexion
 
     Public Shared instancia As Conexion
-    Public Property Connection As New OdbcConnection(
-            "dsn=" + "driverODBC" +
-            ";UID=" + "sysMati" +
-            ";PWD=" + "mati123" +
-            ";PORT=" + "3306" +
-            ";DATABASE=" + "empresa" +
-            ";SERVER=" + "bytesoft.duckdns.org"
+    Public Property connection As New OdbcConnection(
+            "dsn=" + "driverodbc" +
+            ";uid=" + "sysMati" +
+            ";pwd=" + "mati123" +
+            ";port=" + "3306" +
+            ";database=" + "empresa" +
+            ";server=" + "bytesoft.duckdns.org"
             )
+    'Public Property Connection As New OdbcConnection(
+    '        "dsn=" + "driverODBCLocal" +
+    '        ";UID=" + "root" +
+    '        ";PWD=" + "" +
+    '        ";PORT=" + "3308" +
+    '        ";DATABASE=" + "empresa" +
+    '        ";SERVER=" + "localhost"
+    '        )
 
     Public Shared Function Singleton() As Conexion
 

@@ -20,24 +20,15 @@ Public Class ControladorPersona
         Me.telefono = telefono
         Me.direccion = direccion
     End Sub
-
-    Public Overridable Function registrar() As Boolean
-        Dim consulta As String = "INSERT INTO PERSONA VALUES (?,?,?,?,?)"
-        Dim parametros As New List(Of OdbcParameter)
-
-        parametros.Add(New OdbcParameter("cedula", Me.cedula))
-        parametros.Add(New OdbcParameter("primer_nombre", Me.pNombre))
-        parametros.Add(New OdbcParameter("segundo_nombre", Me.sNombre))
-        parametros.Add(New OdbcParameter("primer_apellido", Me.pApellido))
-        parametros.Add(New OdbcParameter("segundo_apellido", Me.sApellido))
-        parametros.Add(New OdbcParameter("telefono", Me.telefono))
-        parametros.Add(New OdbcParameter("direccion", Me.direccion))
-
-        If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
-            Return True
+    Sub New(p As ControladorPersona)
+        Me.New(p.cedula, p.pNombre, p.sNombre, p.pApellido, p.sApellido, p.telefono, p.direccion)
+    End Sub
+    Public Overridable Function registrar() As Integer
+        If ModeloPersona.Singleton.AltaPersona(cedula, pNombre, sNombre,
+                    pApellido, sApellido, telefono, direccion) Then
+            Return 0
         End If
-
-        Return False
+        Return 2
     End Function
 
 End Class

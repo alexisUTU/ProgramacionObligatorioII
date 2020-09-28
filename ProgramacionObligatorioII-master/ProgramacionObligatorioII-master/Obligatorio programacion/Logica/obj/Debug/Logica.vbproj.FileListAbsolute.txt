@@ -77,3 +77,16 @@ C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObl
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.pdb
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbprojAssemblyReference.cache
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.dll
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.pdb
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Logica.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.dll
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\bin\Debug\Acceso_a_Datos.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.Resources.resources
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.dll
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Logica\obj\Debug\Logica.pdb

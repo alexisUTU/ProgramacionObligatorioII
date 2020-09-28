@@ -56,3 +56,11 @@ C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObl
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.dll
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.xml
 C:\Users\rpere\OneDrive\Trabajos\2020\Programacion\Obligatorio 2\ProgramacionObligatorioII\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.pdb
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.dll
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.pdb
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\bin\Debug\Acceso_a_Datos.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.Resources.resources
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.vbproj.GenerateResource.cache
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.dll
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.xml
+C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Acceso_a_Datos\obj\Debug\Acceso_a_Datos.pdb

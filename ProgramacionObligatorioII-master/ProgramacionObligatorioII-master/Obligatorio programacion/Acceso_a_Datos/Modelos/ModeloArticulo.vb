@@ -29,9 +29,7 @@ Public Class ModeloArticulo
     End Function
 
     Public Function ListarArticulo()
-
-        Dim consulta As String = "SELECT foto AS Foto, descripcion AS Descripcion, precio AS Precio, fecha_fabricacion AS FechaFabricacion FROM articulos"
-
+        Dim consulta As String = "CALL listarArticulos"
         Return ConsultasBase.Singleton.ConsultaTabla(consulta)
     End Function
 

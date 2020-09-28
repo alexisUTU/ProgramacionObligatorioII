@@ -1,33 +1,27 @@
 ﻿Imports Acceso_a_Datos
 Imports System.Data.Odbc
 
-Public Class ControladorEmpleado
-
-    Inherits ControladorPersona
-
+Public Class ControladorEmpleado : Inherits ControladorPersona
     Property sueldo As Integer
-
-    Sub New(cedula As String, pNombre As String, sNombre As String, pApellido As String, sApellido As String,
-                telefono As String, direccion As String, sueldo As Integer)
-        MyBase.New(cedula, pNombre, sNombre, pApellido, sApellido, telefono, direccion)
+    Sub New(p As ControladorPersona, sueldo As Integer)
+        MyBase.New(p)
         Me.sueldo = sueldo
     End Sub
-
-    Public Overrides Function registrar() As Boolean
-
-        MyBase.registrar()
-        Dim consulta As String = "INSERT INTO EMPLEADOS VALUES (?,?)"
-        Dim parametros As New List(Of OdbcParameter)
-
-        parametros.Add(New OdbcParameter("cedula", Me.cedula))
-        parametros.Add(New OdbcParameter("sueldoMens", Me.sueldo))
-
-
-        If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
-            Return True
+    Public Overrides Function registrar() As Integer
+        If MyBase.registrar() = 0 Then
+            Return ModeloEmpleado.Singleton.AltaEmpleado(cedula, sueldo)
+        Else
+            Return 2
         End If
+    End Function
+    Public Shared Function ListarEmpleados() As DataTable
+        Try
+            Dim tabla As DataTable = ModeloEmpleado.Singleton.ListarEmpleados
+            Return tabla
+        Catch ex As Exception
+            Return Nothing
+        End Try
 
-        Return False
-
+        Return Nothing
     End Function
 End Class

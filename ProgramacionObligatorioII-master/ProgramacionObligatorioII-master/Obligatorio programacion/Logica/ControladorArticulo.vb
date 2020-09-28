@@ -18,10 +18,6 @@ Public Class ControladorArticulo
         Me.fecha = fecha
 
     End Sub
-    Public Sub New()
-
-    End Sub
-
     Public Function AltaArticulos() As Boolean
         Try
             Dim resultado As Boolean = ModeloArticulo.Singleton.AltaArticulo(codigo, foto, descripcion, precio, fecha)
@@ -32,7 +28,7 @@ Public Class ControladorArticulo
 
         Return False
     End Function
-    Public Function ListarArticulo() As DataTable
+    Public Shared Function ListarArticulo() As DataTable
         Try
             Dim tabla As DataTable = ModeloArticulo.Singleton.ListarArticulo
             Return tabla

@@ -60,22 +60,18 @@
     End Sub
 
     Private Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
-        frmChange(New frmAgregarArticulo)
+        frmChange(frmAgregarArticulo)
     End Sub
 
     Private Sub frmChange(form As Form)
-
-        Me.MdiChildren(0).Close()
+        Me.MdiChildren(0).Dispose()
         form.MdiParent = Me
         form.BringToFront()
         form.Dock = DockStyle.Fill
         form.Show()
-
     End Sub
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-
-        frmChange(frmAgregar.Singleton)
-
+    Private Sub btnAddEmp_Click(sender As Object, e As EventArgs) Handles btnAddEmp.Click
+        frmChange(frmAgregarEmpleado.Singleton)
     End Sub
 
     Private Sub pnlTopBar_MouseDown(sender As Object, e As MouseEventArgs) Handles pnlTopBar.MouseDown
@@ -101,8 +97,8 @@
         End If
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        frmChange(frmListados)
+    Private Sub btnListArt_Click(sender As Object, e As EventArgs) Handles btnListArt.Click
+        frmChange(frmListadoArticulo)
     End Sub
 
     Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
@@ -111,6 +107,10 @@
 
     Private Sub btnMain_Click(sender As Object, e As EventArgs) Handles btnMain.Click
         frmChange(frmBienvenida)
+    End Sub
+
+    Private Sub btnListEmp_Click(sender As Object, e As EventArgs) Handles btnListEmp.Click
+        frmChange(frmListadoEmpleado)
     End Sub
 
     Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles Me.Load
