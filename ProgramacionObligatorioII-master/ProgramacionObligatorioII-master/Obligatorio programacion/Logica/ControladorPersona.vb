@@ -2,16 +2,16 @@
 Imports Acceso_a_Datos
 
 Public Class ControladorPersona
-    Property cedula As String
+    Property cedula As Integer
     Property pNombre As String
     Property sNombre As String
     Property pApellido As String
     Property sApellido As String
-    Property telefono As String
+    Property telefono As Integer
     Property direccion As String
 
-    Sub New(cedula As String, pNombre As String, sNombre As String, pApellido As String,
-               sApellido As String, telefono As String, direccion As String)
+    Sub New(cedula As Integer, pNombre As String, sNombre As String, pApellido As String,
+               sApellido As String, telefono As Integer, direccion As String)
         Me.cedula = cedula
         Me.pNombre = pNombre
         Me.sNombre = sNombre
@@ -30,5 +30,17 @@ Public Class ControladorPersona
         End If
         Return 2
     End Function
-
+    Public Overridable Function modificar() As Integer
+        If ModeloPersona.Singleton.ModificarPersona(cedula, pNombre, sNombre,
+            pApellido, sApellido, telefono, direccion) Then
+            Return 0
+        End If
+        Return 2
+    End Function
+    Public Overridable Function quitar() As Integer
+        If ModeloPersona.Singleton.QuitarPersona(Me.cedula) Then
+            Return 0
+        End If
+        Return 2
+    End Function
 End Class

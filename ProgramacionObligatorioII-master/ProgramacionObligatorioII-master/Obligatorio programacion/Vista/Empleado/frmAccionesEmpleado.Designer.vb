@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmAgregarEmpleado
+Partial Class frmAccionesEmpleado
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class frmAgregarEmpleado
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.btnAgregarArt = New System.Windows.Forms.Button()
+        Me.btnModEmp = New System.Windows.Forms.Button()
         Me.txtPNombre = New System.Windows.Forms.TextBox()
         Me.txtSNombre = New System.Windows.Forms.TextBox()
         Me.txtPApellido = New System.Windows.Forms.TextBox()
@@ -42,6 +42,7 @@ Partial Class frmAgregarEmpleado
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
         Me.txtTel = New System.Windows.Forms.TextBox()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.btnQuitar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -64,21 +65,21 @@ Partial Class frmAgregarEmpleado
         Me.Label5.TabIndex = 23
         Me.Label5.Text = "Ingrese los datos del empleado"
         '
-        'btnAgregarArt
+        'btnModEmp
         '
-        Me.btnAgregarArt.BackColor = System.Drawing.Color.Gainsboro
-        Me.btnAgregarArt.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnAgregarArt.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnAgregarArt.FlatAppearance.BorderSize = 0
-        Me.btnAgregarArt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAgregarArt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarArt.Location = New System.Drawing.Point(465, 550)
-        Me.btnAgregarArt.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnAgregarArt.Name = "btnAgregarArt"
-        Me.btnAgregarArt.Size = New System.Drawing.Size(257, 55)
-        Me.btnAgregarArt.TabIndex = 9
-        Me.btnAgregarArt.Text = "REGISTRAR"
-        Me.btnAgregarArt.UseVisualStyleBackColor = False
+        Me.btnModEmp.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnModEmp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnModEmp.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnModEmp.FlatAppearance.BorderSize = 0
+        Me.btnModEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnModEmp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModEmp.Location = New System.Drawing.Point(240, 535)
+        Me.btnModEmp.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnModEmp.Name = "btnModEmp"
+        Me.btnModEmp.Size = New System.Drawing.Size(257, 55)
+        Me.btnModEmp.TabIndex = 9
+        Me.btnModEmp.Text = "Modificar"
+        Me.btnModEmp.UseVisualStyleBackColor = False
         '
         'txtPNombre
         '
@@ -298,12 +299,29 @@ Partial Class frmAgregarEmpleado
         Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "Tipo de empleado"
         '
-        'frmAgregarEmpleado
+        'btnQuitar
+        '
+        Me.btnQuitar.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnQuitar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnQuitar.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnQuitar.FlatAppearance.BorderSize = 0
+        Me.btnQuitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnQuitar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQuitar.Location = New System.Drawing.Point(598, 535)
+        Me.btnQuitar.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnQuitar.Name = "btnQuitar"
+        Me.btnQuitar.Size = New System.Drawing.Size(257, 55)
+        Me.btnQuitar.TabIndex = 24
+        Me.btnQuitar.Text = "Quitar"
+        Me.btnQuitar.UseVisualStyleBackColor = False
+        '
+        'frmAccionesEmpleado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1188, 640)
+        Me.Controls.Add(Me.btnQuitar)
         Me.Controls.Add(Me.GroupBox9)
         Me.Controls.Add(Me.GroupBox8)
         Me.Controls.Add(Me.GroupBox7)
@@ -314,10 +332,10 @@ Partial Class frmAgregarEmpleado
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.btnAgregarArt)
+        Me.Controls.Add(Me.btnModEmp)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.Name = "frmAgregarEmpleado"
+        Me.Name = "frmAccionesEmpleado"
         Me.Text = "frmAgregar"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -342,7 +360,7 @@ Partial Class frmAgregarEmpleado
     End Sub
 
     Friend WithEvents Label5 As Label
-    Friend WithEvents btnAgregarArt As Button
+    Friend WithEvents btnModEmp As Button
     Friend WithEvents txtPNombre As TextBox
     Friend WithEvents txtSNombre As TextBox
     Friend WithEvents txtPApellido As TextBox
@@ -361,4 +379,5 @@ Partial Class frmAgregarEmpleado
     Friend WithEvents GroupBox8 As GroupBox
     Friend WithEvents txtTel As TextBox
     Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents btnQuitar As Button
 End Class

@@ -28,6 +28,16 @@ Public Class ControladorArticulo
 
         Return False
     End Function
+    Public Function ModificarArticulo(id As Integer) As Boolean
+        Try
+            Dim resultado As Boolean = ModeloArticulo.Singleton.ModificarArticulo(id, codigo, foto, descripcion, precio, fecha)
+            Return resultado
+        Catch ex As Exception
+            Return False
+        End Try
+
+        Return False
+    End Function
     Public Shared Function ListarArticulo() As DataTable
         Try
             Dim tabla As DataTable = ModeloArticulo.Singleton.ListarArticulo
@@ -39,4 +49,14 @@ Public Class ControladorArticulo
         Return Nothing
     End Function
 
+    Public Function QuitarArticulo(pos As Integer) As Boolean
+        Try
+            Dim resultado As Boolean = ModeloArticulo.Singleton.QuitarArticulo(pos)
+            Return resultado
+        Catch ex As Exception
+            Return Nothing
+        End Try
+
+        Return Nothing
+    End Function
 End Class

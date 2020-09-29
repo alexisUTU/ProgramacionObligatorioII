@@ -59,16 +59,20 @@
         End If
     End Sub
 
-    Private Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
-        frmChange(frmAgregarArticulo)
+    Public Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
+        frmChange(New frmAgregarArticulo)
     End Sub
 
-    Private Sub frmChange(form As Form)
-        Me.MdiChildren(0).Dispose()
+    Public Sub frmChange(form As Form)
+        Me.MdiChildren(0).Close()
+
         form.MdiParent = Me
         form.BringToFront()
         form.Dock = DockStyle.Fill
+        form.Activate()
         form.Show()
+
+
     End Sub
     Private Sub btnAddEmp_Click(sender As Object, e As EventArgs) Handles btnAddEmp.Click
         frmChange(frmAgregarEmpleado.Singleton)
@@ -98,7 +102,7 @@
     End Sub
 
     Private Sub btnListArt_Click(sender As Object, e As EventArgs) Handles btnListArt.Click
-        frmChange(frmListadoArticulo)
+        frmChange(New frmListadoArticulo)
     End Sub
 
     Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
@@ -106,11 +110,11 @@
     End Sub
 
     Private Sub btnMain_Click(sender As Object, e As EventArgs) Handles btnMain.Click
-        frmChange(frmBienvenida)
+        frmChange(New frmBienvenida)
     End Sub
 
     Private Sub btnListEmp_Click(sender As Object, e As EventArgs) Handles btnListEmp.Click
-        frmChange(frmListadoEmpleado)
+        frmChange(New frmListadoEmpleado)
     End Sub
 
     Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles Me.Load

@@ -36,7 +36,7 @@ Public Class ConsultasBase
     Public Function consultaInsert(parametros As List(Of OdbcParameter), consulta As String) As Boolean
 
         Conexion.Singleton.CheckConexion()
-        Dim command As New OdbcCommand(consulta, Conexion.Singleton.Connection)
+        Dim command As New OdbcCommand(consulta, Conexion.Singleton.connection)
 
         For Each parameter In parametros
             command.Parameters.Add(parameter)
@@ -51,5 +51,4 @@ Public Class ConsultasBase
         End If
 
     End Function
-
 End Class

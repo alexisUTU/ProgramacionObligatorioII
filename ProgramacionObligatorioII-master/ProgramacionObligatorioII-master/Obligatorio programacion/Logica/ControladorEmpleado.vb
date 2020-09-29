@@ -14,6 +14,24 @@ Public Class ControladorEmpleado : Inherits ControladorPersona
             Return 2
         End If
     End Function
+    Public Overrides Function modificar() As Integer
+        If MyBase.modificar() = 0 Then
+            If ModeloEmpleado.Singleton.ModificarEmpleado(cedula, sueldo) Then
+                Return 0
+            Else
+                Return 1
+            End If
+        Else
+            Return 2
+        End If
+    End Function
+    Public Overrides Function quitar() As Integer
+        If MyBase.quitar() = 0 Then
+            Return ModeloEmpleado.Singleton.QuitarEmpleado(cedula)
+        Else
+            Return 2
+        End If
+    End Function
     Public Shared Function ListarEmpleados() As DataTable
         Try
             Dim tabla As DataTable = ModeloEmpleado.Singleton.ListarEmpleados

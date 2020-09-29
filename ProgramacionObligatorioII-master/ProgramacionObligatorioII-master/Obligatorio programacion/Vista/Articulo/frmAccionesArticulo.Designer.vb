@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmAgregarArticulo
+Partial Class frmAccionesArticulo
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -34,6 +34,7 @@ Partial Class frmAgregarArticulo
         Me.txtPrecio = New System.Windows.Forms.MaskedTextBox()
         Me.pcbArticulo = New System.Windows.Forms.PictureBox()
         Me.btnSelecImagen = New System.Windows.Forms.Button()
+        Me.btnQuitar = New System.Windows.Forms.Button()
         CType(Me.pcbArticulo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -115,9 +116,9 @@ Partial Class frmAgregarArticulo
         Me.btnAgregarArt.Location = New System.Drawing.Point(35, 508)
         Me.btnAgregarArt.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarArt.Name = "btnAgregarArt"
-        Me.btnAgregarArt.Size = New System.Drawing.Size(1106, 104)
+        Me.btnAgregarArt.Size = New System.Drawing.Size(473, 104)
         Me.btnAgregarArt.TabIndex = 6
-        Me.btnAgregarArt.Text = "Registrar"
+        Me.btnAgregarArt.Text = "Modificar"
         Me.btnAgregarArt.UseVisualStyleBackColor = False
         '
         'lblTitulo
@@ -183,12 +184,29 @@ Partial Class frmAgregarArticulo
         Me.btnSelecImagen.Text = "Seleccionar imagen"
         Me.btnSelecImagen.UseVisualStyleBackColor = False
         '
-        'frmAgregarArticulo
+        'btnQuitar
+        '
+        Me.btnQuitar.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnQuitar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnQuitar.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.btnQuitar.FlatAppearance.BorderSize = 0
+        Me.btnQuitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnQuitar.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
+        Me.btnQuitar.Location = New System.Drawing.Point(516, 508)
+        Me.btnQuitar.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnQuitar.Name = "btnQuitar"
+        Me.btnQuitar.Size = New System.Drawing.Size(625, 104)
+        Me.btnQuitar.TabIndex = 23
+        Me.btnQuitar.Text = "Quitar"
+        Me.btnQuitar.UseVisualStyleBackColor = False
+        '
+        'frmAccionesArticulo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1188, 640)
+        Me.Controls.Add(Me.btnQuitar)
         Me.Controls.Add(Me.btnSelecImagen)
         Me.Controls.Add(Me.pcbArticulo)
         Me.Controls.Add(Me.txtPrecio)
@@ -203,9 +221,9 @@ Partial Class frmAgregarArticulo
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.Name = "frmAgregarArticulo"
+        Me.Name = "frmAccionesArticulo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
-        Me.Text = "frmAgregarArticulo"
+        Me.Text = "frmModificarArticulo"
         CType(Me.pcbArticulo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -223,4 +241,5 @@ Partial Class frmAgregarArticulo
     Friend WithEvents txtPrecio As MaskedTextBox
     Friend WithEvents pcbArticulo As PictureBox
     Friend WithEvents btnSelecImagen As Button
+    Friend WithEvents btnQuitar As Button
 End Class

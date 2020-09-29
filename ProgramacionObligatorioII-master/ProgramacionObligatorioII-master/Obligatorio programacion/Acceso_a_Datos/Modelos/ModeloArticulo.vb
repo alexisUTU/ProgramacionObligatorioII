@@ -27,6 +27,39 @@ Public Class ModeloArticulo
 
         Return False
     End Function
+    Public Function ModificarArticulo(id As Integer, codigo As Int32, foto As String, descripcion As String, precio As Double, fecha As Date) As Boolean
+
+        Dim consulta As String = "UPDATE ARTICULOS " &
+            "SET codigo=?, foto=?, descripcion=?, precio=?, fecha_fabricacion=? " &
+            "WHERE id_articulo=?"
+        Dim parametros As New List(Of OdbcParameter)
+        With parametros
+            .Add(New OdbcParameter("codigo", codigo))
+            .Add(New OdbcParameter("foto", foto))
+            .Add(New OdbcParameter("descripcion", descripcion))
+            .Add(New OdbcParameter("precio", precio))
+            .Add(New OdbcParameter("fecha_fabricacion", fecha))
+            .Add(New OdbcParameter("id_articulo", id))
+        End With
+
+        If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
+            Return True
+        End If
+        Return False
+    End Function
+
+    Public Function QuitarArticulo(pos As Integer) As Boolean
+
+        Dim consulta As String = "DELETE FROM ARTICULOS WHERE id_articulo=?"
+
+        Dim parametros As New List(Of OdbcParameter)
+        parametros.Add(New OdbcParameter("id_articulo", pos))
+
+        If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
+            Return True
+        End If
+        Return False
+    End Function
 
     Public Function ListarArticulo()
         Dim consulta As String = "CALL listarArticulos"

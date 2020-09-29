@@ -2,8 +2,7 @@
 
 Public Class frmAgregarArticulo
 
-    Dim pathImage As String
-
+    Property pathImage As String
     Private Sub btnAgregarArt_Click(sender As Object, e As EventArgs) Handles btnAgregarArt.Click
 
         If Verificar.Singleton.VerificarInt(txtCod.Text) Then
@@ -38,7 +37,7 @@ Public Class frmAgregarArticulo
         txtFecha.Select(0, 0)
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub btnSelecImagen_Click(sender As Object, e As EventArgs) Handles btnSelecImagen.Click
         Dim opf As New OpenFileDialog
 
         opf.Title = "Seleccione una imágen"
@@ -47,9 +46,8 @@ Public Class frmAgregarArticulo
 
         If opf.ShowDialog = DialogResult.OK Then
             pathImage = opf.FileName
-            PictureBox1.Image = Image.FromFile(pathImage)
+            pcbArticulo.Image = Image.FromFile(pathImage)
         End If
-
     End Sub
 
     Private Function Base64(path As String)
@@ -64,4 +62,8 @@ Public Class frmAgregarArticulo
 
         Return convert64
     End Function
+
+    Private Sub pcbArticulo_Click(sender As Object, e As EventArgs) Handles pcbArticulo.Click
+        btnSelecImagen_Click(sender, e)
+    End Sub
 End Class
