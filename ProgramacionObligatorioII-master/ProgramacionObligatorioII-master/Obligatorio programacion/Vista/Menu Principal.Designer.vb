@@ -24,6 +24,10 @@ Partial Class Menu_Principal
     Private Sub InitializeComponent()
         Me.pnlSidebar = New System.Windows.Forms.Panel()
         Me.btnCerrarSesion = New FontAwesome.Sharp.IconButton()
+        Me.pnlTienda = New System.Windows.Forms.Panel()
+        Me.btnBuscar = New System.Windows.Forms.Button()
+        Me.btnPublicar = New System.Windows.Forms.Button()
+        Me.btnTiendaM = New FontAwesome.Sharp.IconButton()
         Me.pnlEmp = New System.Windows.Forms.Panel()
         Me.btnListEmp = New System.Windows.Forms.Button()
         Me.btnAddEmp = New System.Windows.Forms.Button()
@@ -39,6 +43,7 @@ Partial Class Menu_Principal
         Me.btnMinimizar = New FontAwesome.Sharp.IconButton()
         Me.btnCerrar = New FontAwesome.Sharp.IconButton()
         Me.pnlSidebar.SuspendLayout()
+        Me.pnlTienda.SuspendLayout()
         Me.pnlEmp.SuspendLayout()
         Me.pnlArt.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -47,8 +52,11 @@ Partial Class Menu_Principal
         '
         'pnlSidebar
         '
+        Me.pnlSidebar.AutoScroll = True
         Me.pnlSidebar.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.pnlSidebar.Controls.Add(Me.btnCerrarSesion)
+        Me.pnlSidebar.Controls.Add(Me.pnlTienda)
+        Me.pnlSidebar.Controls.Add(Me.btnTiendaM)
         Me.pnlSidebar.Controls.Add(Me.pnlEmp)
         Me.pnlSidebar.Controls.Add(Me.btnEmp)
         Me.pnlSidebar.Controls.Add(Me.pnlArt)
@@ -59,7 +67,7 @@ Partial Class Menu_Principal
         Me.pnlSidebar.Location = New System.Drawing.Point(0, 0)
         Me.pnlSidebar.Margin = New System.Windows.Forms.Padding(0)
         Me.pnlSidebar.Name = "pnlSidebar"
-        Me.pnlSidebar.Size = New System.Drawing.Size(245, 646)
+        Me.pnlSidebar.Size = New System.Drawing.Size(245, 696)
         Me.pnlSidebar.TabIndex = 12
         '
         'btnCerrarSesion
@@ -75,17 +83,94 @@ Partial Class Menu_Principal
         Me.btnCerrarSesion.IconColor = System.Drawing.Color.White
         Me.btnCerrarSesion.IconSize = 32
         Me.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerrarSesion.Location = New System.Drawing.Point(0, 544)
+        Me.btnCerrarSesion.Location = New System.Drawing.Point(0, 730)
         Me.btnCerrarSesion.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCerrarSesion.Name = "btnCerrarSesion"
         Me.btnCerrarSesion.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.btnCerrarSesion.Rotation = 0R
-        Me.btnCerrarSesion.Size = New System.Drawing.Size(245, 70)
+        Me.btnCerrarSesion.Size = New System.Drawing.Size(224, 70)
         Me.btnCerrarSesion.TabIndex = 16
         Me.btnCerrarSesion.Text = "Cerrar Sesión"
         Me.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCerrarSesion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnCerrarSesion.UseVisualStyleBackColor = False
+        '
+        'pnlTienda
+        '
+        Me.pnlTienda.Controls.Add(Me.btnBuscar)
+        Me.pnlTienda.Controls.Add(Me.btnPublicar)
+        Me.pnlTienda.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlTienda.Location = New System.Drawing.Point(0, 614)
+        Me.pnlTienda.Margin = New System.Windows.Forms.Padding(0)
+        Me.pnlTienda.Name = "pnlTienda"
+        Me.pnlTienda.Size = New System.Drawing.Size(224, 116)
+        Me.pnlTienda.TabIndex = 20
+        Me.pnlTienda.Visible = False
+        '
+        'btnBuscar
+        '
+        Me.btnBuscar.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBuscar.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnBuscar.FlatAppearance.BorderSize = 0
+        Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBuscar.ForeColor = System.Drawing.Color.White
+        Me.btnBuscar.Location = New System.Drawing.Point(0, 57)
+        Me.btnBuscar.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnBuscar.Name = "btnBuscar"
+        Me.btnBuscar.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
+        Me.btnBuscar.Size = New System.Drawing.Size(224, 57)
+        Me.btnBuscar.TabIndex = 10
+        Me.btnBuscar.Text = "Buscar articulo"
+        Me.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBuscar.UseVisualStyleBackColor = False
+        '
+        'btnPublicar
+        '
+        Me.btnPublicar.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.btnPublicar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnPublicar.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnPublicar.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnPublicar.FlatAppearance.BorderSize = 0
+        Me.btnPublicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPublicar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPublicar.ForeColor = System.Drawing.Color.White
+        Me.btnPublicar.Location = New System.Drawing.Point(0, 0)
+        Me.btnPublicar.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnPublicar.Name = "btnPublicar"
+        Me.btnPublicar.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
+        Me.btnPublicar.Size = New System.Drawing.Size(224, 57)
+        Me.btnPublicar.TabIndex = 9
+        Me.btnPublicar.Text = "Publicar articulo"
+        Me.btnPublicar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPublicar.UseVisualStyleBackColor = False
+        '
+        'btnTiendaM
+        '
+        Me.btnTiendaM.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(82, Byte), Integer), CType(CType(82, Byte), Integer))
+        Me.btnTiendaM.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnTiendaM.FlatAppearance.BorderSize = 0
+        Me.btnTiendaM.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTiendaM.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnTiendaM.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTiendaM.ForeColor = System.Drawing.Color.White
+        Me.btnTiendaM.IconChar = FontAwesome.Sharp.IconChar.Home
+        Me.btnTiendaM.IconColor = System.Drawing.Color.White
+        Me.btnTiendaM.IconSize = 32
+        Me.btnTiendaM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnTiendaM.Location = New System.Drawing.Point(0, 544)
+        Me.btnTiendaM.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnTiendaM.Name = "btnTiendaM"
+        Me.btnTiendaM.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
+        Me.btnTiendaM.Rotation = 0R
+        Me.btnTiendaM.Size = New System.Drawing.Size(224, 70)
+        Me.btnTiendaM.TabIndex = 19
+        Me.btnTiendaM.Text = "Tienda"
+        Me.btnTiendaM.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnTiendaM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnTiendaM.UseVisualStyleBackColor = False
         '
         'pnlEmp
         '
@@ -95,7 +180,7 @@ Partial Class Menu_Principal
         Me.pnlEmp.Location = New System.Drawing.Point(0, 428)
         Me.pnlEmp.Margin = New System.Windows.Forms.Padding(0)
         Me.pnlEmp.Name = "pnlEmp"
-        Me.pnlEmp.Size = New System.Drawing.Size(245, 116)
+        Me.pnlEmp.Size = New System.Drawing.Size(224, 116)
         Me.pnlEmp.TabIndex = 15
         Me.pnlEmp.Visible = False
         '
@@ -113,7 +198,7 @@ Partial Class Menu_Principal
         Me.btnListEmp.Margin = New System.Windows.Forms.Padding(4)
         Me.btnListEmp.Name = "btnListEmp"
         Me.btnListEmp.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
-        Me.btnListEmp.Size = New System.Drawing.Size(245, 57)
+        Me.btnListEmp.Size = New System.Drawing.Size(224, 57)
         Me.btnListEmp.TabIndex = 10
         Me.btnListEmp.Text = "Listar empleados"
         Me.btnListEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -133,7 +218,7 @@ Partial Class Menu_Principal
         Me.btnAddEmp.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAddEmp.Name = "btnAddEmp"
         Me.btnAddEmp.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
-        Me.btnAddEmp.Size = New System.Drawing.Size(245, 57)
+        Me.btnAddEmp.Size = New System.Drawing.Size(224, 57)
         Me.btnAddEmp.TabIndex = 9
         Me.btnAddEmp.Text = "Agregar empleado"
         Me.btnAddEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -157,7 +242,7 @@ Partial Class Menu_Principal
         Me.btnEmp.Name = "btnEmp"
         Me.btnEmp.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.btnEmp.Rotation = 0R
-        Me.btnEmp.Size = New System.Drawing.Size(245, 70)
+        Me.btnEmp.Size = New System.Drawing.Size(224, 70)
         Me.btnEmp.TabIndex = 18
         Me.btnEmp.Text = "Empleados"
         Me.btnEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -172,7 +257,7 @@ Partial Class Menu_Principal
         Me.pnlArt.Location = New System.Drawing.Point(0, 246)
         Me.pnlArt.Margin = New System.Windows.Forms.Padding(0)
         Me.pnlArt.Name = "pnlArt"
-        Me.pnlArt.Size = New System.Drawing.Size(245, 112)
+        Me.pnlArt.Size = New System.Drawing.Size(224, 112)
         Me.pnlArt.TabIndex = 14
         Me.pnlArt.Visible = False
         '
@@ -190,7 +275,7 @@ Partial Class Menu_Principal
         Me.btnListArt.Margin = New System.Windows.Forms.Padding(4)
         Me.btnListArt.Name = "btnListArt"
         Me.btnListArt.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
-        Me.btnListArt.Size = New System.Drawing.Size(245, 57)
+        Me.btnListArt.Size = New System.Drawing.Size(224, 57)
         Me.btnListArt.TabIndex = 10
         Me.btnListArt.Text = "Listar artículos"
         Me.btnListArt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -210,7 +295,7 @@ Partial Class Menu_Principal
         Me.btnAddArt.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAddArt.Name = "btnAddArt"
         Me.btnAddArt.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
-        Me.btnAddArt.Size = New System.Drawing.Size(245, 57)
+        Me.btnAddArt.Size = New System.Drawing.Size(224, 57)
         Me.btnAddArt.TabIndex = 9
         Me.btnAddArt.Text = "Agregar artículo"
         Me.btnAddArt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -234,7 +319,7 @@ Partial Class Menu_Principal
         Me.btnArt.Name = "btnArt"
         Me.btnArt.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.btnArt.Rotation = 0R
-        Me.btnArt.Size = New System.Drawing.Size(245, 70)
+        Me.btnArt.Size = New System.Drawing.Size(224, 70)
         Me.btnArt.TabIndex = 15
         Me.btnArt.Text = "Artículos"
         Me.btnArt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -259,7 +344,7 @@ Partial Class Menu_Principal
         Me.btnMain.Name = "btnMain"
         Me.btnMain.Padding = New System.Windows.Forms.Padding(13, 0, 27, 0)
         Me.btnMain.Rotation = 0R
-        Me.btnMain.Size = New System.Drawing.Size(245, 70)
+        Me.btnMain.Size = New System.Drawing.Size(224, 70)
         Me.btnMain.TabIndex = 17
         Me.btnMain.Text = "Menu Principal"
         Me.btnMain.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -273,7 +358,7 @@ Partial Class Menu_Principal
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(245, 106)
+        Me.Panel1.Size = New System.Drawing.Size(224, 106)
         Me.Panel1.TabIndex = 0
         '
         'lblTitulo
@@ -341,7 +426,7 @@ Partial Class Menu_Principal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1433, 646)
+        Me.ClientSize = New System.Drawing.Size(1433, 696)
         Me.Controls.Add(Me.pnlTopBar)
         Me.Controls.Add(Me.pnlSidebar)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -351,6 +436,7 @@ Partial Class Menu_Principal
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu_Principal"
         Me.pnlSidebar.ResumeLayout(False)
+        Me.pnlTienda.ResumeLayout(False)
         Me.pnlEmp.ResumeLayout(False)
         Me.pnlArt.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
@@ -374,4 +460,8 @@ Partial Class Menu_Principal
     Friend WithEvents btnCerrar As FontAwesome.Sharp.IconButton
     Friend WithEvents btnMinimizar As FontAwesome.Sharp.IconButton
     Friend WithEvents lblTitulo As Label
+    Friend WithEvents btnTiendaM As FontAwesome.Sharp.IconButton
+    Friend WithEvents pnlTienda As Panel
+    Friend WithEvents btnBuscar As Button
+    Friend WithEvents btnPublicar As Button
 End Class

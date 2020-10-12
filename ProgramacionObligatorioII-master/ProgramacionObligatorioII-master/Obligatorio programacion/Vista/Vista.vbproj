@@ -88,22 +88,10 @@
     <Compile Include="Articulo\frmAccionesArticulo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleado\frmAgregarEmpleado.Designer.vb">
-      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Empleado\frmAgregarEmpleado.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Articulo\frmAgregarArticulo.Designer.vb">
       <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
     </Compile>
     <Compile Include="Articulo\frmAgregarArticulo.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Empleado\frmListadoEmpleado.Designer.vb">
-      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Empleado\frmListadoEmpleado.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Empleado\frmAccionesEmpleado.Designer.vb">
@@ -112,10 +100,34 @@
     <Compile Include="Empleado\frmAccionesEmpleado.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.Designer.vb">
+      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmAgregarEmpleado.Designer.vb">
+      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmAgregarEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmBienvenida.Designer.vb">
       <DependentUpon>frmBienvenida.vb</DependentUpon>
     </Compile>
     <Compile Include="frmBienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tienda\frmListaCarro.Designer.vb">
+      <DependentUpon>frmListaCarro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmListaCarro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tienda\frmBuscador.Designer.vb">
+      <DependentUpon>frmBuscador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmBuscador.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -147,6 +159,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Tienda\frmDetalles.Designer.vb">
+      <DependentUpon>frmDetalles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmDetalles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tienda\frmPublicarArticulo.Designer.vb">
+      <DependentUpon>frmPublicarArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmPublicarArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Articulo\frmListadoArticulo.resx">
@@ -155,20 +179,17 @@
     <EmbeddedResource Include="Articulo\frmAccionesArticulo.resx">
       <DependentUpon>frmAccionesArticulo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleado\frmAgregarEmpleado.resx">
-      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Articulo\frmAgregarArticulo.resx">
       <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Empleado\frmListadoEmpleado.resx">
       <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleado\frmAccionesEmpleado.resx">
-      <DependentUpon>frmAccionesEmpleado.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmBienvenida.resx">
       <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\frmBuscador.resx">
+      <DependentUpon>frmBuscador.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -178,9 +199,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\frmDetalles.resx">
+      <DependentUpon>frmDetalles.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +225,9 @@
       <Project>{c09bcc90-7081-4ed3-83eb-aee63322f972}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_43_Duck_River_Canada_4783009.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

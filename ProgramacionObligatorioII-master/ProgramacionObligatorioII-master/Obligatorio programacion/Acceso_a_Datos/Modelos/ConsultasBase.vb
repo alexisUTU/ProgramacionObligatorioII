@@ -1,4 +1,4 @@
-﻿Imports System.Data.Odbc
+﻿Imports MySql.Data.MySqlClient
 
 Public Class ConsultasBase
 
@@ -16,7 +16,7 @@ Public Class ConsultasBase
     Public Function ConsultaCampo(consulta As String)
 
         Conexion.Singleton.CheckConexion()
-        Dim command As New OdbcCommand(consulta, Conexion.Singleton.Connection)
+        Dim command As New MySqlCommand(consulta, Conexion.Singleton.connection)
 
         Return command.ExecuteScalar()
 
@@ -26,17 +26,17 @@ Public Class ConsultasBase
 
         Conexion.Singleton.CheckConexion()
         Dim tabla As New DataTable
-        Dim adapter As New OdbcDataAdapter(consulta, Conexion.Singleton.Connection)
+        Dim adapter As New MySqlDataAdapter(consulta, Conexion.Singleton.connection)
         adapter.Fill(tabla)
 
         Return tabla
 
     End Function
 
-    Public Function consultaInsert(parametros As List(Of OdbcParameter), consulta As String) As Boolean
+    Public Function consultaInsert(parametros As List(Of MySqlParameter), consulta As String) As Boolean
 
         Conexion.Singleton.CheckConexion()
-        Dim command As New OdbcCommand(consulta, Conexion.Singleton.connection)
+        Dim command As New MySqlCommand(consulta, Conexion.Singleton.connection)
 
         For Each parameter In parametros
             command.Parameters.Add(parameter)

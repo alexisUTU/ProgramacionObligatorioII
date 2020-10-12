@@ -1,18 +1,20 @@
 ﻿Imports Acceso_a_Datos
-Imports System.Data.Odbc
+
 
 Public Class ControladorArticulo
 
     Property codigo As Int32
     Property foto As String
+    Property nombre As String
     Property descripcion As String
     Property precio As Double
     Property fecha As Date
 
-    Public Sub New(codigo As Int32, foto As String, descripcion As String, precio As Double, fecha As Date)
+    Public Sub New(codigo As Int32, foto As String, nombre As String, descripcion As String, precio As Double, fecha As Date)
 
         Me.codigo = codigo
         Me.foto = foto
+        Me.nombre = nombre
         Me.descripcion = descripcion
         Me.precio = precio
         Me.fecha = fecha
@@ -20,7 +22,7 @@ Public Class ControladorArticulo
     End Sub
     Public Function AltaArticulos() As Boolean
         Try
-            Dim resultado As Boolean = ModeloArticulo.Singleton.AltaArticulo(codigo, foto, descripcion, precio, fecha)
+            Dim resultado As Boolean = ModeloArticulo.Singleton.AltaArticulo(codigo, foto, nombre, descripcion, precio, fecha)
             Return resultado
         Catch ex As Exception
             Return False
@@ -30,7 +32,7 @@ Public Class ControladorArticulo
     End Function
     Public Function ModificarArticulo(id As Integer) As Boolean
         Try
-            Dim resultado As Boolean = ModeloArticulo.Singleton.ModificarArticulo(id, codigo, foto, descripcion, precio, fecha)
+            Dim resultado As Boolean = ModeloArticulo.Singleton.ModificarArticulo(id, codigo, foto, nombre, descripcion, precio, fecha)
             Return resultado
         Catch ex As Exception
             Return False

@@ -40,7 +40,7 @@ Public Class frmAccionesArticulo
                             Me.articulo.foto = Base64(pathImage)
                         End If
                         Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32),
-                                Me.articulo.foto, txtDesc.Text, CType(txtPrecio.Text, Double),
+                                Me.articulo.foto, txtNombre.Text, txtDesc.Text, CType(txtPrecio.Text, Double),
                                 CType(txtFecha.Text, Date)
                         )
 
@@ -107,4 +107,5 @@ Public Class frmAccionesArticulo
     Private Sub pcbArticulo_Click(sender As Object, e As EventArgs) Handles pcbArticulo.Click
         btnSelecImagen_Click(sender, e)
     End Sub
+
 End Class

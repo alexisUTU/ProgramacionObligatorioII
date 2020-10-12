@@ -1,5 +1,4 @@
 ﻿Imports Acceso_a_Datos
-Imports System.Data.Odbc
 
 Public Class ControladorEmpleado : Inherits ControladorPersona
     Property sueldo As Integer
@@ -35,6 +34,16 @@ Public Class ControladorEmpleado : Inherits ControladorPersona
     Public Shared Function ListarEmpleados() As DataTable
         Try
             Dim tabla As DataTable = ModeloEmpleado.Singleton.ListarEmpleados
+            Return tabla
+        Catch ex As Exception
+            Return Nothing
+        End Try
+
+        Return Nothing
+    End Function
+    Public Shared Function ListarEmpleadosEmpieza(texto As String) As DataTable
+        Try
+            Dim tabla As DataTable = ModeloEmpleado.Singleton.ListarEmpleadosEmpieza(texto)
             Return tabla
         Catch ex As Exception
             Return Nothing

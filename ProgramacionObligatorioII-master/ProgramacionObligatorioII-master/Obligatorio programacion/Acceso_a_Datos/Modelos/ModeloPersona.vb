@@ -1,4 +1,5 @@
-﻿Imports System.Data.Odbc
+﻿
+Imports MySql.Data.MySqlClient
 
 Public Class ModeloPersona
     Public Shared instancia As ModeloPersona
@@ -17,15 +18,15 @@ Public Class ModeloPersona
         Dim consulta As String = "INSERT INTO PERSONAS (cedula, primer_nombre," &
             " segundo_nombre, primer_apellido, segundo_apellido, telefono, direccion) " &
             "VALUES (?,?,?,?,?,?,?)"
-        Dim parametros As New List(Of OdbcParameter)
+        Dim parametros As New List(Of MySqlParameter)
 
-        parametros.Add(New OdbcParameter("cedula", cedula))
-        parametros.Add(New OdbcParameter("primer_nombre", pnom))
-        parametros.Add(New OdbcParameter("segundo_nombre", snom))
-        parametros.Add(New OdbcParameter("primer_apellido", pape))
-        parametros.Add(New OdbcParameter("segundo_apellido", sape))
-        parametros.Add(New OdbcParameter("telefono", telefono))
-        parametros.Add(New OdbcParameter("direccion", direccion))
+        parametros.Add(New MySqlParameter("cedula", cedula))
+        parametros.Add(New MySqlParameter("primer_nombre", pnom))
+        parametros.Add(New MySqlParameter("segundo_nombre", snom))
+        parametros.Add(New MySqlParameter("primer_apellido", pape))
+        parametros.Add(New MySqlParameter("segundo_apellido", sape))
+        parametros.Add(New MySqlParameter("telefono", telefono))
+        parametros.Add(New MySqlParameter("direccion", direccion))
 
         If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
             Return True
@@ -41,16 +42,16 @@ Public Class ModeloPersona
             "primer_nombre=?, segundo_nombre=?, primer_apellido=?, " &
             "segundo_apellido=?, telefono=?, direccion=? WHERE cedula=?"
 
-        Dim parametros As New List(Of OdbcParameter)
+        Dim parametros As New List(Of MySqlParameter)
 
         With parametros
-            .Add(New OdbcParameter("primer_nombre", pnom))
-            .Add(New OdbcParameter("segundo_nombre", snom))
-            .Add(New OdbcParameter("primer_apellido", pape))
-            .Add(New OdbcParameter("segundo_apellido", sape))
-            .Add(New OdbcParameter("telefono", telefono))
-            .Add(New OdbcParameter("direccion", direccion))
-            .Add(New OdbcParameter("cedula", cedula))
+            .Add(New MySqlParameter("primer_nombre", pnom))
+            .Add(New MySqlParameter("segundo_nombre", snom))
+            .Add(New MySqlParameter("primer_apellido", pape))
+            .Add(New MySqlParameter("segundo_apellido", sape))
+            .Add(New MySqlParameter("telefono", telefono))
+            .Add(New MySqlParameter("direccion", direccion))
+            .Add(New MySqlParameter("cedula", cedula))
         End With
 
 
@@ -65,8 +66,8 @@ Public Class ModeloPersona
 
         Dim consulta As String = "DELETE FROM PERSONAS WHERE cedula=?"
 
-        Dim parametros As New List(Of OdbcParameter)
-        parametros.Add(New OdbcParameter("cedula", cedula))
+        Dim parametros As New List(Of MySqlParameter)
+        parametros.Add(New MySqlParameter("cedula", cedula))
 
         If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
             Return True

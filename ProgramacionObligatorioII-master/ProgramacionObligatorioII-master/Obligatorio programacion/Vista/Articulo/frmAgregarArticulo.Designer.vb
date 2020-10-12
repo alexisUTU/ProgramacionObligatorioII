@@ -34,6 +34,8 @@ Partial Class frmAgregarArticulo
         Me.txtPrecio = New System.Windows.Forms.MaskedTextBox()
         Me.pcbArticulo = New System.Windows.Forms.PictureBox()
         Me.btnSelecImagen = New System.Windows.Forms.Button()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.lblNombre = New System.Windows.Forms.Label()
         CType(Me.pcbArticulo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -87,7 +89,7 @@ Partial Class frmAgregarArticulo
         Me.txtCod.BackColor = System.Drawing.Color.Gainsboro
         Me.txtCod.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCod.Location = New System.Drawing.Point(509, 168)
+        Me.txtCod.Location = New System.Drawing.Point(826, 168)
         Me.txtCod.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(315, 30)
@@ -97,7 +99,7 @@ Partial Class frmAgregarArticulo
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(503, 132)
+        Me.Label1.Location = New System.Drawing.Point(820, 132)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(100, 31)
@@ -159,6 +161,7 @@ Partial Class frmAgregarArticulo
         'pcbArticulo
         '
         Me.pcbArticulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pcbArticulo.Image = Global.Vista.My.Resources.Resources.iconfinder_43_Duck_River_Canada_4783009
         Me.pcbArticulo.Location = New System.Drawing.Point(35, 52)
         Me.pcbArticulo.Margin = New System.Windows.Forms.Padding(4)
         Me.pcbArticulo.Name = "pcbArticulo"
@@ -183,12 +186,36 @@ Partial Class frmAgregarArticulo
         Me.btnSelecImagen.Text = "Seleccionar imagen"
         Me.btnSelecImagen.UseVisualStyleBackColor = False
         '
+        'txtNombre
+        '
+        Me.txtNombre.BackColor = System.Drawing.Color.Gainsboro
+        Me.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombre.Location = New System.Drawing.Point(509, 168)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(315, 30)
+        Me.txtNombre.TabIndex = 26
+        '
+        'lblNombre
+        '
+        Me.lblNombre.AutoSize = True
+        Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNombre.Location = New System.Drawing.Point(503, 132)
+        Me.lblNombre.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblNombre.Name = "lblNombre"
+        Me.lblNombre.Size = New System.Drawing.Size(110, 31)
+        Me.lblNombre.TabIndex = 27
+        Me.lblNombre.Text = "Nombre"
+        '
         'frmAgregarArticulo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1188, 640)
+        Me.Controls.Add(Me.txtNombre)
+        Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.btnSelecImagen)
         Me.Controls.Add(Me.pcbArticulo)
         Me.Controls.Add(Me.txtPrecio)
@@ -223,4 +250,6 @@ Partial Class frmAgregarArticulo
     Friend WithEvents txtPrecio As MaskedTextBox
     Friend WithEvents pcbArticulo As PictureBox
     Friend WithEvents btnSelecImagen As Button
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents lblNombre As Label
 End Class

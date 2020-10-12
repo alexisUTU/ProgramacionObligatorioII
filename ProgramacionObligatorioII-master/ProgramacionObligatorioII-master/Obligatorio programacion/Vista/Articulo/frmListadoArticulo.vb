@@ -16,15 +16,17 @@ Public Class frmListadoArticulo
             'Dim listaDatos = senderAux.CurrentRow.Cells
 
             Dim listaDatos = sender.CurrentRow.Cells
-            Dim id As Integer = Integer.Parse(listaDatos(0).Value)
-            Dim codigo As Integer = Integer.Parse(listaDatos(1).Value)
-            Dim foto As String = listaDatos(2).Value.ToString
-            Dim descripcion As String = listaDatos(3).Value.ToString
-            Dim precio As Double = Double.Parse(listaDatos(4).Value)
+
+            Dim codigo As Integer = Integer.Parse(listaDatos(0).Value)
+            Dim foto As String = listaDatos(1).Value.ToString
+            Dim nombre As String = listaDatos(2).Value.ToString
+            Dim precio As Double = Double.Parse(listaDatos(3).Value)
+            Dim descripcion As String = listaDatos(4).Value.ToString
             Dim fecha As Date = Date.Parse(listaDatos(5).Value)
+            Dim id As Integer = Integer.Parse(listaDatos(6).Value)
 
             Dim formAcciones As New frmAccionesArticulo(id, New ControladorArticulo(
-                codigo, foto, descripcion, precio, fecha
+                codigo, foto, nombre, descripcion, precio, fecha
             ))
             Menu_Principal.frmChange(formAcciones)
         End If

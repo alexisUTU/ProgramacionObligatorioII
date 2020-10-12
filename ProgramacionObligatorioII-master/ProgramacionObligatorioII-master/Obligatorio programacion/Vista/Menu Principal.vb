@@ -3,20 +3,16 @@
     Private drag As Boolean
     Private mouseX, mouseY As Integer
 
-    Public Sub esconder()
-
-        If pnlArt.Visible = True Then
-            pnlArt.Visible = False
-        ElseIf pnlEmp.Visible = True Then
-            pnlEmp.Visible = False
-        End If
-
-    End Sub
-
-    Public Sub mostrar(pnl As Panel)
-
-        If pnl.Visible = False Then
-            pnl.Visible = True
+    Public Sub recargar(btn As Button)
+        pnlArt.Visible = False
+        pnlEmp.Visible = False
+        pnlTienda.Visible = False
+        If btnArt.GetHashCode = btn.GetHashCode Then
+            pnlArt.Visible = True
+        ElseIf btnEmp.GetHashCode = btn.GetHashCode Then
+            pnlEmp.Visible = True
+        ElseIf btnTiendaM.GetHashCode = btn.GetHashCode Then
+            pnlTienda.Visible = True
         End If
     End Sub
 
@@ -44,19 +40,11 @@
     End Sub
 
     Private Sub btnEmp_Click_1(sender As Object, e As EventArgs) Handles btnEmp.Click
-        If pnlEmp.Visible = True Then
-            esconder()
-        Else
-            mostrar(pnlEmp)
-        End If
+        recargar(btnEmp)
     End Sub
 
     Private Sub btnArt_Click(sender As Object, e As EventArgs) Handles btnArt.Click
-        If pnlArt.Visible = True Then
-            esconder()
-        Else
-            mostrar(pnlArt)
-        End If
+        recargar(btnArt)
     End Sub
 
     Public Sub btnAddArt_Click(sender As Object, e As EventArgs) Handles btnAddArt.Click
@@ -115,6 +103,18 @@
 
     Private Sub btnListEmp_Click(sender As Object, e As EventArgs) Handles btnListEmp.Click
         frmChange(New frmListadoEmpleado)
+    End Sub
+
+    Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+        frmChange(New frmBuscador)
+    End Sub
+
+    Private Sub btnTiendaM_Click(sender As Object, e As EventArgs) Handles btnTiendaM.Click
+        recargar(btnTiendaM)
+    End Sub
+
+    Private Sub btnPublicar_Click(sender As Object, e As EventArgs) Handles btnPublicar.Click
+        frmChange(New frmPublicarArticulo)
     End Sub
 
     Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles Me.Load

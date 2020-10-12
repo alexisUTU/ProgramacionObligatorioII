@@ -10,7 +10,9 @@ Public Class frmAgregarArticulo
                 If Verificar.Singleton.VerificarString(txtDesc.Text) Then
                     If IsDate(txtFecha.Text) Then
 
-                        Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32), Base64(pathImage), txtDesc.Text, CType(txtPrecio.Text, Double), CType(txtFecha.Text, Date))
+                        Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32),
+                            Base64(pathImage), Me.txtNombre.Text, txtDesc.Text, CType(txtPrecio.Text, Double),
+                            CType(txtFecha.Text, Date))
 
                         If articulo.AltaArticulos() Then
                             MsgBox("Artículo ingresado con éxito")
@@ -65,5 +67,9 @@ Public Class frmAgregarArticulo
 
     Private Sub pcbArticulo_Click(sender As Object, e As EventArgs) Handles pcbArticulo.Click
         btnSelecImagen_Click(sender, e)
+    End Sub
+
+    Private Sub frmAgregarArticulo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

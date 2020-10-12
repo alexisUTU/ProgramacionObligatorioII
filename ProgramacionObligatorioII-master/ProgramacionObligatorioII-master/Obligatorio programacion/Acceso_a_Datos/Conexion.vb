@@ -1,25 +1,31 @@
-﻿Imports System.Data.Odbc
+﻿Imports MySql.Data.MySqlClient
 
 Public Class Conexion
 
     Public Shared instancia As Conexion
-    'Public Property connection As New OdbcConnection(
-    '        "dsn=" + "driverodbc" +
-    '        ";uid=" + "sysMati" +
-    '        ";pwd=" + "mati123" +
-    '        ";port=" + "3306" +
-    '        ";database=" + "empresa" +
-    '        ";server=" + "bytesoft.duckdns.org"
-    '        )
-    Public Property connection As New OdbcConnection(
-            "dsn=" + "driverodbclocal" +
-            ";uid=" + "root" +
-            ";pwd=" + "" +
-            ";port=" + "3308" +
-            ";database=" + "empresa" +
-            ";server=" + "localhost"
-            )
-
+    Public Property connection As MySqlConnection
+    'Sub New()
+    '    Dim conBuilder As New MySqlConnectionStringBuilder()
+    '    With conBuilder
+    '        .Server = "bytesoft.duckdns.org"
+    '        .Port = 3306
+    '        .UserID = "sysMati"
+    '        .Password = "mati123"
+    '        .Database = "empresa"
+    '    End With
+    '    connection = New MySqlConnection(conBuilder.ToString)
+    'End Sub
+    Sub New()
+        Dim conBuilder As New MySqlConnectionStringBuilder()
+        With conBuilder
+            .Server = "localhost"
+            .Port = 3308
+            .UserID = "root"
+            .Password = ""
+            .Database = "empresa"
+        End With
+        connection = New MySqlConnection(conBuilder.ToString)
+    End Sub
     Public Shared Function Singleton() As Conexion
 
         If instancia Is Nothing Then
@@ -32,8 +38,8 @@ Public Class Conexion
     Public Sub CheckConexion()
 
         Try
-            If Connection.State = ConnectionState.Closed Then
-                Me.Connection.Open()
+            If connection.State = ConnectionState.Closed Then
+                Me.connection.Open()
             End If
 
         Catch ex As Exception
@@ -45,8 +51,8 @@ Public Class Conexion
     Public Sub CerrarConexion()
 
         Try
-            If Connection.State = ConnectionState.Open Then
-                Connection.Close()
+            If connection.State = ConnectionState.Open Then
+                connection.Close()
             End If
 
         Catch ex As Exception

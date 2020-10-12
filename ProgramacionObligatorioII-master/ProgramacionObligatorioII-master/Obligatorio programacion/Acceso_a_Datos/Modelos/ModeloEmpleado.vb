@@ -1,4 +1,5 @@
-﻿Imports System.Data.Odbc
+﻿
+Imports MySql.Data.MySqlClient
 
 Public Class ModeloEmpleado
 
@@ -14,10 +15,10 @@ Public Class ModeloEmpleado
     End Function
     Function AltaEmpleado(cedula As Integer, sueldo As Integer) As Integer
         Dim consulta As String = "INSERT INTO EMPLEADOS VALUES (?,?)"
-        Dim parametros As New List(Of OdbcParameter)
+        Dim parametros As New List(Of MySqlParameter)
 
-        parametros.Add(New OdbcParameter("cedula", cedula))
-        parametros.Add(New OdbcParameter("sueldoMens", sueldo))
+        parametros.Add(New MySqlParameter("cedula", cedula))
+        parametros.Add(New MySqlParameter("sueldoMens", sueldo))
 
         If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
             Return 0
@@ -28,11 +29,11 @@ Public Class ModeloEmpleado
     Public Function ModificarEmpleado(cedula As Integer, sueldo As Integer) As Boolean
         Dim consulta As String = "UPDATE EMPLEADOS SET sueldoMens=? WHERE cedula=?"
 
-        Dim parametros As New List(Of OdbcParameter)
+        Dim parametros As New List(Of MySqlParameter)
 
         With parametros
-            .Add(New OdbcParameter("sueldoMens", sueldo))
-            .Add(New OdbcParameter("cedula", cedula))
+            .Add(New MySqlParameter("sueldoMens", sueldo))
+            .Add(New MySqlParameter("cedula", cedula))
         End With
 
         If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
@@ -45,18 +46,27 @@ Public Class ModeloEmpleado
 
         Dim consulta As String = "DELETE FROM EMPLEADOS WHERE cedula=?"
 
-        Dim parametros As New List(Of OdbcParameter)
-        parametros.Add(New OdbcParameter("cedula", cedula))
+        Dim parametros As New List(Of MySqlParameter)
+        parametros.Add(New MySqlParameter("cedula", cedula))
 
         If ConsultasBase.Singleton.consultaInsert(parametros, consulta) Then
             Return True
         End If
         Return False
     End Function
-    Public Function ListarEmpleados()
 
+    Public Function ListarEmpleados() As DataTable
         Dim consulta As String = "CALL listarEmpleados"
         Return ConsultasBase.Singleton.ConsultaTabla(consulta)
     End Function
 
+    Public Function ListarEmpleadosEmpieza(texto As String) As DataTable
+        Dim consulta As String = "CALL listarArticulosPorNombreProducto('" & texto & "')"
+
+        Dim parametros As New List(Of MySqlParameter)
+        parametros.Add(New MySqlParameter("nombreProducto", texto))
+
+
+        Return ConsultasBase.Singleton.ConsultaTabla(consulta)
+    End Function
 End Class

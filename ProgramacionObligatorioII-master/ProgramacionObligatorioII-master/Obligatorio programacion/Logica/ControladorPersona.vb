@@ -1,5 +1,4 @@
-﻿Imports System.Data.Odbc
-Imports Acceso_a_Datos
+﻿Imports Acceso_a_Datos
 
 Public Class ControladorPersona
     Property cedula As Integer

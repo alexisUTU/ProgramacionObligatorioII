@@ -1,4 +1,4 @@
-﻿Imports System.Data.Odbc
+﻿Imports MySql.Data.MySqlClient
 Public Class ModeloConexion
 
 End Class
