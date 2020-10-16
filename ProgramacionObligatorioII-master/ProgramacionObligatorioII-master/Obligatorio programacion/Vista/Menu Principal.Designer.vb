@@ -26,7 +26,7 @@ Partial Class Menu_Principal
         Me.btnCerrarSesion = New FontAwesome.Sharp.IconButton()
         Me.pnlTienda = New System.Windows.Forms.Panel()
         Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.btnPublicar = New System.Windows.Forms.Button()
+        Me.btnCarro = New System.Windows.Forms.Button()
         Me.btnTiendaM = New FontAwesome.Sharp.IconButton()
         Me.pnlEmp = New System.Windows.Forms.Panel()
         Me.btnListEmp = New System.Windows.Forms.Button()
@@ -98,7 +98,7 @@ Partial Class Menu_Principal
         'pnlTienda
         '
         Me.pnlTienda.Controls.Add(Me.btnBuscar)
-        Me.pnlTienda.Controls.Add(Me.btnPublicar)
+        Me.pnlTienda.Controls.Add(Me.btnCarro)
         Me.pnlTienda.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlTienda.Location = New System.Drawing.Point(0, 614)
         Me.pnlTienda.Margin = New System.Windows.Forms.Padding(0)
@@ -127,25 +127,25 @@ Partial Class Menu_Principal
         Me.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnBuscar.UseVisualStyleBackColor = False
         '
-        'btnPublicar
+        'btnCarro
         '
-        Me.btnPublicar.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(37, Byte), Integer))
-        Me.btnPublicar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnPublicar.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnPublicar.FlatAppearance.BorderColor = System.Drawing.Color.Gray
-        Me.btnPublicar.FlatAppearance.BorderSize = 0
-        Me.btnPublicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPublicar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPublicar.ForeColor = System.Drawing.Color.White
-        Me.btnPublicar.Location = New System.Drawing.Point(0, 0)
-        Me.btnPublicar.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnPublicar.Name = "btnPublicar"
-        Me.btnPublicar.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
-        Me.btnPublicar.Size = New System.Drawing.Size(224, 57)
-        Me.btnPublicar.TabIndex = 9
-        Me.btnPublicar.Text = "Publicar articulo"
-        Me.btnPublicar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPublicar.UseVisualStyleBackColor = False
+        Me.btnCarro.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.btnCarro.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCarro.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnCarro.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnCarro.FlatAppearance.BorderSize = 0
+        Me.btnCarro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCarro.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCarro.ForeColor = System.Drawing.Color.White
+        Me.btnCarro.Location = New System.Drawing.Point(0, 0)
+        Me.btnCarro.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnCarro.Name = "btnCarro"
+        Me.btnCarro.Padding = New System.Windows.Forms.Padding(27, 0, 0, 0)
+        Me.btnCarro.Size = New System.Drawing.Size(224, 57)
+        Me.btnCarro.TabIndex = 9
+        Me.btnCarro.Text = "Carro"
+        Me.btnCarro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCarro.UseVisualStyleBackColor = False
         '
         'btnTiendaM
         '
@@ -463,5 +463,5 @@ Partial Class Menu_Principal
     Friend WithEvents btnTiendaM As FontAwesome.Sharp.IconButton
     Friend WithEvents pnlTienda As Panel
     Friend WithEvents btnBuscar As Button
-    Friend WithEvents btnPublicar As Button
+    Friend WithEvents btnCarro As Button
 End Class

@@ -77,7 +77,7 @@ Partial Class frmDetalles
         Me.lblCodigoValor.AutoSize = True
         Me.lblCodigoValor.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.lblCodigoValor.ForeColor = System.Drawing.SystemColors.Control
-        Me.lblCodigoValor.Location = New System.Drawing.Point(6, 433)
+        Me.lblCodigoValor.Location = New System.Drawing.Point(8, 433)
         Me.lblCodigoValor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCodigoValor.Name = "lblCodigoValor"
         Me.lblCodigoValor.Size = New System.Drawing.Size(131, 39)
@@ -89,7 +89,7 @@ Partial Class frmDetalles
         Me.lblCodigo.AutoSize = True
         Me.lblCodigo.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.lblCodigo.ForeColor = System.Drawing.SystemColors.Control
-        Me.lblCodigo.Location = New System.Drawing.Point(4, 394)
+        Me.lblCodigo.Location = New System.Drawing.Point(8, 394)
         Me.lblCodigo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCodigo.Name = "lblCodigo"
         Me.lblCodigo.Size = New System.Drawing.Size(126, 39)
@@ -188,8 +188,10 @@ Partial Class frmDetalles
         '
         'pcbArticulo
         '
+        Me.pcbArticulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.pcbArticulo.Image = Global.Vista.My.Resources.Resources.iconfinder_43_Duck_River_Canada_4783009
         Me.pcbArticulo.Location = New System.Drawing.Point(6, 80)
+        Me.pcbArticulo.MaximumSize = New System.Drawing.Size(1107, 400)
         Me.pcbArticulo.Name = "pcbArticulo"
         Me.pcbArticulo.Size = New System.Drawing.Size(1107, 400)
         Me.pcbArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

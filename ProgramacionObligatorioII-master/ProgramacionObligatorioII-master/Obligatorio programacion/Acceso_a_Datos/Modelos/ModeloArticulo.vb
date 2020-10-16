@@ -1,5 +1,4 @@
-﻿Imports System.Data.Mysql
-Imports MySql.Data.MySqlClient
+﻿Imports MySql.Data.MySqlClient
 
 Public Class ModeloArticulo
 

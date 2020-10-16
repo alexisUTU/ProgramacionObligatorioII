@@ -23,7 +23,7 @@ Public Class frmBuscador
             Dim control As New ControladorArticulo(codigo, foto,
                 nombre, descripcion, precio, fecha)
 
-            Dim formDetalles As New frmDetalles(id, control)
+            Dim formDetalles As New frmDetalles(id, control, True)
             Menu_Principal.frmChange(formDetalles)
         End If
 
@@ -41,7 +41,7 @@ Public Class frmBuscador
         End If
     End Function
 
-    Private Sub btnCarro_Click(sender As Object, e As EventArgs) Handles btnCarro.Click
+    Private Sub btnCarro_Click(sender As Object, e As EventArgs) 
         Menu_Principal.frmChange(New frmListaCarro)
     End Sub
 End Class

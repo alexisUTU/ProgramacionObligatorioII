@@ -14,10 +14,15 @@ Public Class frmAccionesArticulo
         Me.id = id
         Me.pathImage = Nothing
         Me.articulo = articulo
-        Me.txtCod.Text = articulo.codigo
-        Me.txtDesc.Text = articulo.descripcion
-        Me.txtFecha.Text = articulo.fecha
-        Me.txtPrecio.Text = articulo.precio
+
+        With articulo
+            Me.txtCod.Text = .codigo
+            Me.txtNombre.Text = .nombre
+            Me.txtDesc.Text = .descripcion
+            Me.txtFecha.Text = .fecha
+            Me.txtPrecio.Text = .precio
+        End With
+
         If Not Me.articulo.foto = "" Then
             Using ms As New MemoryStream(Convert.FromBase64String(articulo.foto))
                 Dim streamImage As Bitmap = Image.FromStream(ms)
@@ -29,9 +34,7 @@ Public Class frmAccionesArticulo
 
     End Sub
 
-
     Private Sub btnModificarArt_Click(sender As Object, e As EventArgs) Handles btnAgregarArt.Click
-
         If Verificar.Singleton.VerificarInt(txtCod.Text) Then
             If Verificar.Singleton.VerificarInt(txtPrecio.Text) Then
                 If Verificar.Singleton.VerificarString(txtDesc.Text) Then
@@ -40,15 +43,15 @@ Public Class frmAccionesArticulo
                             Me.articulo.foto = Base64(pathImage)
                         End If
                         Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32),
-                                Me.articulo.foto, txtNombre.Text, txtDesc.Text, CType(txtPrecio.Text, Double),
+                                Me.articulo.foto, Me.txtNombre.Text, txtDesc.Text, CType(txtPrecio.Text, Double),
                                 CType(txtFecha.Text, Date)
                         )
-
                         If articulo.ModificarArticulo(id) Then
                             MsgBox("Artículo modificado con éxito")
+
                             Menu_Principal.frmChange(New frmListadoArticulo)
                         Else
-                            MsgBox("Error al modificars el artículo")
+                            MsgBox("Error al modificar el artículo")
                         End If
 
                     Else
@@ -63,9 +66,9 @@ Public Class frmAccionesArticulo
         Else
             MsgBox("Error al ingresar el código")
         End If
-
     End Sub
     Private Sub btnQuitar_Click(sender As Object, e As EventArgs) Handles btnQuitar.Click
+
         If articulo.QuitarArticulo(id) Then
             MsgBox("Artículo quitado con éxito")
             Menu_Principal.frmChange(New frmListadoArticulo)
@@ -90,7 +93,7 @@ Public Class frmAccionesArticulo
         End If
     End Sub
 
-    Private Function Base64(path As String)
+    Private Function Base64(path As String) As String
 
         Dim convert64 As String = ""
         Dim stream As New IO.MemoryStream

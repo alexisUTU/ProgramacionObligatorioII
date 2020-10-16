@@ -166,7 +166,6 @@ C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioI
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Acceso_a_Datos.dll
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\MySql.Data.dll
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Google.Protobuf.dll
-C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Renci.SshNet.dll
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.pdb
 C:\Users\Alexis M\Documents\GIT\ProgramacionObligatorio\ProgramacionObligatorioII-master\ProgramacionObligatorioII-master\Obligatorio programacion\Vista\bin\Debug\Logica.xml

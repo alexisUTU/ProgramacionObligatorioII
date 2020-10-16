@@ -71,7 +71,7 @@ Partial Class frmAgregarArticulo
         Me.txtDesc.Multiline = True
         Me.txtDesc.Name = "txtDesc"
         Me.txtDesc.Size = New System.Drawing.Size(632, 232)
-        Me.txtDesc.TabIndex = 2
+        Me.txtDesc.TabIndex = 3
         '
         'lblDescripcion
         '
@@ -93,7 +93,7 @@ Partial Class frmAgregarArticulo
         Me.txtCod.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(315, 30)
-        Me.txtCod.TabIndex = 1
+        Me.txtCod.TabIndex = 2
         '
         'Label1
         '
@@ -114,11 +114,11 @@ Partial Class frmAgregarArticulo
         Me.btnAgregarArt.FlatAppearance.BorderSize = 0
         Me.btnAgregarArt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAgregarArt.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
-        Me.btnAgregarArt.Location = New System.Drawing.Point(35, 508)
+        Me.btnAgregarArt.Location = New System.Drawing.Point(35, 509)
         Me.btnAgregarArt.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarArt.Name = "btnAgregarArt"
         Me.btnAgregarArt.Size = New System.Drawing.Size(1106, 104)
-        Me.btnAgregarArt.TabIndex = 6
+        Me.btnAgregarArt.TabIndex = 7
         Me.btnAgregarArt.Text = "Registrar"
         Me.btnAgregarArt.UseVisualStyleBackColor = False
         '
@@ -182,7 +182,7 @@ Partial Class frmAgregarArticulo
         Me.btnSelecImagen.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSelecImagen.Name = "btnSelecImagen"
         Me.btnSelecImagen.Size = New System.Drawing.Size(375, 63)
-        Me.btnSelecImagen.TabIndex = 3
+        Me.btnSelecImagen.TabIndex = 6
         Me.btnSelecImagen.Text = "Seleccionar imagen"
         Me.btnSelecImagen.UseVisualStyleBackColor = False
         '
@@ -195,7 +195,7 @@ Partial Class frmAgregarArticulo
         Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(315, 30)
-        Me.txtNombre.TabIndex = 26
+        Me.txtNombre.TabIndex = 1
         '
         'lblNombre
         '

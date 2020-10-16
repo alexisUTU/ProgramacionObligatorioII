@@ -9,17 +9,25 @@ Public Class frmAgregarArticulo
             If Verificar.Singleton.VerificarInt(txtPrecio.Text) Then
                 If Verificar.Singleton.VerificarString(txtDesc.Text) Then
                     If IsDate(txtFecha.Text) Then
+                        If pathImage <> "" Then
 
-                        Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32),
-                            Base64(pathImage), Me.txtNombre.Text, txtDesc.Text, CType(txtPrecio.Text, Double),
-                            CType(txtFecha.Text, Date))
+                            Dim articulo As New ControladorArticulo(CType(txtCod.Text, Int32),
+                                    Base64(pathImage), Me.txtNombre.Text.ToString.ToUpper, txtDesc.Text, CType(txtPrecio.Text, Double),
+                                    CType(txtFecha.Text, Date))
 
-                        If articulo.AltaArticulos() Then
-                            MsgBox("Artículo ingresado con éxito")
+                            If articulo.AltaArticulos() Then
+                                MsgBox("Artículo ingresado con éxito")
+                                Me.txtCod.Text = ""
+                                Me.txtNombre.Text = ""
+                                Me.txtFecha.Text = ""
+                                Me.txtPrecio.Text = ""
+                                Me.pcbArticulo.Image = Nothing
+                            Else
+                                MsgBox("Error al ingresar el artículo")
+                            End If
                         Else
-                            MsgBox("Error al ingresar el artículo")
+                            MsgBox("Ingrese una imagen")
                         End If
-
                     Else
                         MsgBox("Error al ingresar la fecha")
                     End If
@@ -70,6 +78,10 @@ Public Class frmAgregarArticulo
     End Sub
 
     Private Sub frmAgregarArticulo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub txtNombre_TextChanged(sender As Object, e As EventArgs) Handles txtNombre.TextChanged
 
     End Sub
 End Class

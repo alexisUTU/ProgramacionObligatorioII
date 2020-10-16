@@ -51,6 +51,7 @@ INSERT INTO	empleados (cedula, sueldoMens) VALUES (2342345,55500);
 
 CREATE TABLE articulos (
   id_articulo int(11) NOT NULL AUTO_INCREMENT primary key,
+  nombre varchar(20) NOT NULL,
   codigo int(11) NOT NULL,
   foto LONGTEXT,
   descripcion varchar(200) NOT NULL,
@@ -58,9 +59,9 @@ CREATE TABLE articulos (
   fecha_fabricacion varchar(10) NOT NULL DEFAULT ''
 )ENGINE  = INNODB;
   
-INSERT INTO articulos (codigo, foto, descripcion, precio, fecha_fabricacion) VALUES
-(5422312, '', 'Bolsa para Lavar Ropa de 50x60cm con Cierre', 80, '31/01/2020'),
-(5422313, '', 'Escurre Platos Metálico de 2 Niveles', 600, '12/03/2020'),
-(5422314, '', 'Funda Protectora de Lavarropas Impermeable 58x62x85cm', 380, '11/02/2020'),
-(5422315, '', 'Toallitas Quita Esmalte de Uñas Ideal para Cartera', 70, '15/02/2020'),
-(5422316, '', 'Bolsa para Lavar Ropa de 50x60cm con Cierre', 80, '31/01/2020');
+INSERT INTO articulos (nombre, codigo, foto, descripcion, precio, fecha_fabricacion) VALUES
+('BOLSA',5422312, '', 'Bolsa para Lavar Ropa de 50x60cm con Cierre', 80, '31/01/2020'),
+('ESCURRE PLATOS',5422313, '', 'Escurre Platos Metálico de 2 Niveles', 600, '12/03/2020'),
+('FUNDA',5422314, '', 'Funda Protectora de Lavarropas Impermeable 58x62x85cm', 380, '11/02/2020'),
+('TOALLITA',5422315, '', 'Toallitas Quita Esmalte de Uñas Ideal para Cartera', 70, '15/02/2020'),
+('BOLSA',5422316, '', 'Bolsa para Lavar Ropa de 50x60cm con Cierre', 80, '31/01/2020');

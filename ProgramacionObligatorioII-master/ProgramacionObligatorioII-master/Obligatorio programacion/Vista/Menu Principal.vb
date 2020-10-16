@@ -113,8 +113,8 @@
         recargar(btnTiendaM)
     End Sub
 
-    Private Sub btnPublicar_Click(sender As Object, e As EventArgs) Handles btnPublicar.Click
-        frmChange(New frmPublicarArticulo)
+    Private Sub btnCarro_Click(sender As Object, e As EventArgs) Handles btnCarro.Click
+        frmChange(New frmListaCarro)
     End Sub
 
     Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles Me.Load

@@ -154,10 +154,11 @@ Partial Class frmAccionesArticulo
         Me.txtPrecio.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrecio.Location = New System.Drawing.Point(35, 446)
         Me.txtPrecio.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtPrecio.Mask = "000,00"
+        Me.txtPrecio.Mask = "999,99"
         Me.txtPrecio.Name = "txtPrecio"
         Me.txtPrecio.Size = New System.Drawing.Size(141, 42)
         Me.txtPrecio.TabIndex = 4
+        Me.txtPrecio.ValidatingType = GetType(Integer)
         '
         'pcbArticulo
         '
