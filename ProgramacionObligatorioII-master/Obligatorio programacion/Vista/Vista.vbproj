@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A8B06CB-272D-4388-BC1C-C98D656C7697}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Vista.My.MyApplication</StartupObject>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Vista.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Vista.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.14.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.14.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Vista">
+      <HintPath>obj\Debug\Vista.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulo\frmListadoArticulo.Designer.vb">
+      <DependentUpon>frmListadoArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Articulo\frmListadoArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articulo\frmAccionesArticulo.Designer.vb">
+      <DependentUpon>frmAccionesArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Articulo\frmAccionesArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articulo\frmAgregarArticulo.Designer.vb">
+      <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Articulo\frmAgregarArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmAccionesEmpleado.Designer.vb">
+      <DependentUpon>frmAccionesEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmAccionesEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.Designer.vb">
+      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmListadoEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmAgregarEmpleado.Designer.vb">
+      <DependentUpon>frmAgregarEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmAgregarEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBienvenida.Designer.vb">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tienda\articuloListaCarro.Designer.vb">
+      <DependentUpon>articuloListaCarro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\articuloListaCarro.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tienda\frmListaCarro.Designer.vb">
+      <DependentUpon>frmListaCarro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmListaCarro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tienda\frmBuscador.Designer.vb">
+      <DependentUpon>frmBuscador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmBuscador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Principal.Designer.vb">
+      <DependentUpon>Menu Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tienda\frmDetalles.Designer.vb">
+      <DependentUpon>frmDetalles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda\frmDetalles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Articulo\frmListadoArticulo.resx">
+      <DependentUpon>frmListadoArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articulo\frmAccionesArticulo.resx">
+      <DependentUpon>frmAccionesArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articulo\frmAgregarArticulo.resx">
+      <DependentUpon>frmAgregarArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado\frmListadoEmpleado.resx">
+      <DependentUpon>frmListadoEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\articuloListaCarro.resx">
+      <DependentUpon>articuloListaCarro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\frmBuscador.resx">
+      <DependentUpon>frmBuscador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Principal.resx">
+      <DependentUpon>Menu Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\frmDetalles.resx">
+      <DependentUpon>frmDetalles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tienda\frmListaCarro.resx">
+      <DependentUpon>frmListaCarro.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.vbproj">
+      <Project>{c09bcc90-7081-4ed3-83eb-aee63322f972}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_43_Duck_River_Canada_4783009.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
